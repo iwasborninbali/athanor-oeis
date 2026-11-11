@@ -7,6 +7,8 @@ Author: Aleksei Kudriashov (ORCID 0009-0006-8885-5338), with AI assistance (Clau
 The OEIS policy on AI use (https://oeis.org/wiki/Use_of_AI_for_OEIS_Submissions) applies to everything we submit: a human
 author is responsible for correctness, programs are understood and published, and nothing is bulk-submitted.
 
+Archived snapshot: v0.1, Zenodo [10.5281/zenodo.24145040](https://doi.org/10.5281/zenodo.24145040) (concept DOI 10.5281/zenodo.24145039).
+
 ## Directions
 
 Our focus is sequences with the keyword `hard`: easier problems will be solved by others when they need them.
