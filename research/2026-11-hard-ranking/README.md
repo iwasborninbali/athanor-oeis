@@ -1,0 +1,140 @@
+# OEIS hard: interest and opportunity ranking
+
+Snapshot: local OEIS HEAD `57bbd254e161585873f56950ff19ba6dc4aeb66c`, 11 November 2026; 401,255 local sequence files, 10,080 tagged `hard`. The rankings are screening tools, not estimates of page views or peer-reviewed assessments of difficulty. The OEIS record is the starting point for checking the exact target. All references below are to that snapshot unless otherwise stated.
+
+## A. Extension candidates
+
+Filter: no Git commit touching the sequence file in 2026; neither `fini` nor `full`; either `more`, or both last observed growth and last data-line change no later than 2022; and at least five incoming references, one Wikipedia page, or three D/H lines. Sort by the watch score below, then A-number. This conservative activity filter excludes even harmless 2026 edits. A blank growth date means no observed growth since the 2023 import, not a known date of the last extension. Dates and sizes cover only inline terms, never b-files. Verify the linked b-file and recent OEIS state before computing.
+
+1. [A111441](https://oeis.org/A111441) — Numbers k such that the sum of the squares of the first k primes is divisible by k; more; 97 incoming, 6 Wikipedia pages; last inline term 16 digits; last observed growth unknown.
+2. [A006052](https://oeis.org/A006052) — Number of magic squares of order n composed of the numbers from 1 to n^2, counted up to rotations and reflections; more; 40 incoming, 2 Wikipedia pages; last inline term 20 digits; last observed growth 2024.
+3. [A059802](https://oeis.org/A059802) — Numbers k such that 5^k - 4^k is prime; more; 112 incoming, 2 Wikipedia pages; last inline term 6 digits; last observed growth unknown.
+4. [A128344](https://oeis.org/A128344) — Numbers k such that (7^k - 5^k)/2 is prime; more; 153 incoming, 0 Wikipedia pages; last inline term 6 digits; last observed growth 2023.
+5. [A003216](https://oeis.org/A003216) — Number of Hamiltonian graphs with n nodes; more; 49 incoming, 0 Wikipedia pages; last inline term 14 digits; last observed growth unknown.
+6. [A204940](https://oeis.org/A204940) — Numbers n such that (23^n - 1)/22 is prime; more; 133 incoming, 0 Wikipedia pages; last inline term 6 digits; last observed growth unknown.
+7. [A217320](https://oeis.org/A217320) — Numbers n such that (13^n - 2^n)/11 is prime; more; 134 incoming, 0 Wikipedia pages; last inline term 4 digits; last observed growth unknown.
+8. [A229542](https://oeis.org/A229542) — Numbers n such that (19^n - 2^n)/17 is prime; more; 132 incoming, 0 Wikipedia pages; last inline term 5 digits; last observed growth unknown.
+9. [A062572](https://oeis.org/A062572) — Numbers k such that 6^k - 5^k is prime; more; 111 incoming, 0 Wikipedia pages; last inline term 6 digits; last observed growth unknown.
+10. [A102896](https://oeis.org/A102896) — Number of ACI algebras (or semilattices) on n generators with no annihilator; more; 44 incoming, 0 Wikipedia pages; last inline term 20 digits; last observed growth unknown.
+11. [A180414](https://oeis.org/A180414) — Number of different resistances that can be obtained by combining n one-ohm resistors; more; 32 incoming, 0 Wikipedia pages; last inline term 9 digits; last observed growth 2023.
+12. [A076337](https://oeis.org/A076337) — Riesel numbers: odd numbers n such that for all k >= 1 the numbers n*2^k - 1 are composite; more; 34 incoming, 0 Wikipedia pages; last inline term 6 digits; last observed growth unknown.
+13. [A001428](https://oeis.org/A001428) — Number of inverse semigroups of order n, considered to be equivalent when they are isomorphic or anti-isomorphic…; more; 12 incoming, 1 Wikipedia pages; last inline term 10 digits; last observed growth unknown.
+14. [A121877](https://oeis.org/A121877) — Numbers k such that (5^k - 3^k)/2 = A005059(k) is prime; more; 54 incoming, 0 Wikipedia pages; last inline term 6 digits; last observed growth 2023.
+15. [A127821](https://oeis.org/A127821) — a(n) = least k such that the remainder of 13^k divided by k is n; more; 48 incoming, 0 Wikipedia pages; last inline term 3 digits; last observed growth unknown.
+16. [A056993](https://oeis.org/A056993) — a(n) is the smallest k >= 2 such that k^(2^n)+1 is prime, or -1 if no such k exists; more; 36 incoming, 0 Wikipedia pages; last inline term 7 digits; last observed growth 2025.
+17. [A365654](https://oeis.org/A365654) — Number of free n-polyominoids, allowing right-angled connections only ("hard" polyominoids); more; 23 incoming, 1 Wikipedia pages; last inline term 9 digits; last observed growth 2025.
+18. [A037273](https://oeis.org/A037273) — Number of steps to reach a prime under "replace n with concatenation of its prime factors", or -1 if no prime is…; more; 29 incoming, 0 Wikipedia pages; last inline term 2 digits; last observed growth unknown.
+19. [A228922](https://oeis.org/A228922) — Numbers n such that (19^n + 2^n)/21 is prime; more; 68 incoming, 0 Wikipedia pages; last inline term 4 digits; last observed growth unknown.
+20. [A006074](https://oeis.org/A006074) — Number of polyaboloes (or polytans): number of different shapes that can be formed with n congruent isosceles…; more; 19 incoming, 0 Wikipedia pages; last inline term 11 digits; last observed growth unknown.
+21. [A123910](https://oeis.org/A123910) — Numbers k such that k!!-4 is prime; more; 51 incoming, 0 Wikipedia pages; last inline term 5 digits; last observed growth unknown.
+22. [A081357](https://oeis.org/A081357) — Sublime numbers, numbers for which the number of divisors and the sum of the divisors are both perfect; more; 11 incoming, 2 Wikipedia pages; last inline term 76 digits; last observed growth unknown.
+23. [A000791](https://oeis.org/A000791) — Ramsey numbers R(3,n); more; 13 incoming, 0 Wikipedia pages; last inline term 2 digits; last observed growth 2023.
+24. [A102894](https://oeis.org/A102894) — Number of ACI algebras or semilattices on n generators, with no identity or annihilator; more; 29 incoming, 0 Wikipedia pages; last inline term 20 digits; last observed growth unknown.
+25. [A046881](https://oeis.org/A046881) — Smallest number that is sum of 2 positive distinct n-th powers in 2 different ways; more; 19 incoming, 0 Wikipedia pages; last inline term 9 digits; last observed growth unknown.
+26. [A075679](https://oeis.org/A075679) — Number of free (rotations and reflections count as same shape) polyominoids (shapes made of faces of cubes) with n…; more; 16 incoming, 2 Wikipedia pages; last inline term 11 digits; last observed growth unknown.
+27. [A037271](https://oeis.org/A037271) — Number of steps to reach a prime under "replace n with concatenation of its prime factors" when applied to n-th…; more; 23 incoming, 0 Wikipedia pages; last inline term 2 digits; last observed growth unknown.
+28. [A035359](https://oeis.org/A035359) — Number of partitions-into-distinct-parts of n (A000009) is a prime; more; 22 incoming, 0 Wikipedia pages; last inline term 8 digits; last observed growth unknown.
+29. [A007506](https://oeis.org/A007506) — Primes p with property that p divides the sum of all primes <= p; more; 11 incoming, 1 Wikipedia pages; last inline term 17 digits; last observed growth unknown.
+30. [A105675](https://oeis.org/A105675) — Highest minimal distance of any Type II doubly-even binary self-dual code of length 8n; more; 19 incoming, 0 Wikipedia pages; last inline term 2 digits; last observed growth unknown.
+
+## B. Conjecture candidates
+
+Thirty selected leads, ranked by the same watch score. Twenty-four choices were selected from explicit conjectures without an identified resolution in the local lines; six further choices represent formalized problems or questions. “Open candidate” means a lead to check, not a verified current mathematical status: a proof or counterexample can appear elsewhere, and a statement may be trivial, false, or only partially formalized. Sequence-level membership does not prove that the specific statement listed is the one formalized. `OEIS Open` means benchmark membership; `formal-conjectures` means a file exists. A benchmark-accepted proof is attached to a sample, not automatically to every conjecture in that sequence. Inclusion in a repository signals exposure, not actual current competition by an AI lab; absence does not prove low competition.
+
+1. [A000043](https://oeis.org/A000043) — A modular characterization involving Mersenne and Fermat numbers; not found in either set; 719 incoming references.
+2. [A000668](https://oeis.org/A000668) — Uniqueness of 31 in a stated divisor-sum condition; not found in either set; 662 incoming references.
+3. [A007097](https://oeis.org/A007097) — Asymptotic product of logarithms of the terms; not found in either set; 286 incoming references.
+4. [A000170](https://oeis.org/A000170) — Strong asymptotic estimate for the terms; the weak exponential rate is established in the entry; not found in either set; 91 incoming references.
+5. [A002827](https://oeis.org/A002827) — Whether the sequence lies within the Zumkeller numbers; not found in either set; 48 incoming references.
+6. [A007850](https://oeis.org/A007850) — Arithmetic-derivative characterization of Giuga numbers; not found in either set; 55 incoming references.
+7. [A003459](https://oeis.org/A003459) — Eventual equality with a shifted sequence; not found in either set; 51 incoming references.
+8. [A111441](https://oeis.org/A111441) — Absence of terms congruent to 3 or 9 modulo 12; not found in either set; 97 incoming references.
+9. [A007540](https://oeis.org/A007540) — A prime power-sum characterization; not found in either set; 38 incoming references.
+10. [A011541](https://oeis.org/A011541) — Growth of the number of distinct prime factors; not found in either set; 60 incoming references.
+11. [A006794](https://oeis.org/A006794) — A bound for the prime preceding a prime p# − 1; not found in either set; 27 incoming references.
+12. [A005234](https://oeis.org/A005234) — A bound for the prime following a prime p# + 1; not found in either set; 23 incoming references.
+13. [A048211](https://oeis.org/A048211) — Conjectured limiting ratio around 2.54; not found in either set; 29 incoming references.
+14. [A092506](https://oeis.org/A092506) — Completeness of listed solutions to a totient equation; not found in either set; 49 incoming references.
+15. [A051783](https://oeis.org/A051783) — Primality characterization for 3^k + 2; not found in either set; 50 incoming references.
+16. [A191363](https://oeis.org/A191363) — Whether 3 is the only odd term; not found in either set; 41 incoming references.
+17. [A072567](https://oeis.org/A072567) — A symmetric-matrix comparison for the maximum number of ones; not found in either set; 16 incoming references.
+18. [A075245](https://oeis.org/A075245) — A proposed formula with specified exceptional indices; not found in either set; 17 incoming references.
+19. [A064591](https://oeis.org/A064591) — A characterization using reciprocal sums over divisors; not found in either set; 26 incoming references.
+20. [A058129](https://oeis.org/A058129) — An asymptotic relation to A027851; not found in either set; 16 incoming references.
+21. [A059442](https://oeis.org/A059442) — The fence conjecture for the stated Ramsey bound; not found in either set; 7 incoming references.
+22. [A347391](https://oeis.org/A347391) — Whether the sequence is finite; not found in either set; 23 incoming references.
+23. [A038552](https://oeis.org/A038552) — An open largest-discriminant conjecture; the formal file also marks a different statement solved; formal-conjectures; 9 incoming references.
+24. [A051602](https://oeis.org/A051602) — An asymptotic density conjecture for maximal grid arrangements; not found in either set; 6 incoming references.
+25. [A345370](https://oeis.org/A345370) — A proposed value for a(12); not found in either set; 9 incoming references.
+26. [A340726](https://oeis.org/A340726) — Maximum numerator–denominator product for resistor networks; OEIS Open; 3 incoming references.
+27. [A119591](https://oeis.org/A119591) — Whether a(n) exists for every n ≥ 2; OEIS Open + formal-conjectures; 2 incoming references.
+28. [A334916](https://oeis.org/A334916) — Whether a base other than 6 or 10 has a unique baseless number; OEIS Open; 1 incoming references.
+29. [A358684](https://oeis.org/A358684) — Conjecture II, a(n) ~ 2^n; the entry reports Conjecture I solved; OEIS Open + formal-conjectures; 0 incoming references.
+30. [A229232](https://oeis.org/A229232) — Whether a(n) is positive for n > 5 except n = 13; OEIS Open + formal-conjectures; 0 incoming references.
+
+## C. Most watched by a transparent composite
+
+For R = distinct incoming sequence files, W = distinct Wikipedia pages summed across English, Russian and German, and L = D + H lines, the score is **3 log10(1 + R) + 2 log10(1 + W) + log10(1 + L) + 1[core] + 0.5[nice]**. Sorted by score, then A-number. Weights are judgment calls and this is an index of linked visibility, not audience, importance, or statistical probability. Git activity and AI membership are deliberately excluded from the score.
+
+1. [A000043](https://oeis.org/A000043) — Mersenne exponents: primes p such that 2^p - 1 is prime. Then 2^p - 1 is called a Mersenne prime; score 13.276; 719 incoming, 4 Wikipedia pages, 63 D/H lines; core; nice.
+2. [A000668](https://oeis.org/A000668) — Mersenne primes (primes of the form 2^n - 1); score 12.705; 662 incoming, 9 Wikipedia pages, 54 D/H lines; nice.
+3. [A000105](https://oeis.org/A000105) — Number of free polyominoes (or square animals) with n cells; score 12.108; 276 incoming, 5 Wikipedia pages, 52 D/H lines; core; nice.
+4. [A000112](https://oeis.org/A000112) — Number of partially ordered sets ("posets") with n unlabeled elements; score 10.974; 68 incoming, 11 Wikipedia pages, 62 D/H lines; core; nice.
+5. [A000001](https://oeis.org/A000001) — Number of groups of order n; score 10.935; 180 incoming, 2 Wikipedia pages, 50 D/H lines; core; nice.
+6. [A019434](https://oeis.org/A019434) — Fermat primes: primes of the form 2^(2^k) + 1, for some k >= 0; score 10.834; 397 incoming, 2 Wikipedia pages, 37 D/H lines; nice.
+7. [A006880](https://oeis.org/A006880) — Number of primes < 10^n; score 10.788; 237 incoming, 5 Wikipedia pages, 39 D/H lines; nice.
+8. [A001220](https://oeis.org/A001220) — Wieferich primes: primes p such that p^2 divides 2^(p-1) - 1; score 10.319; 186 incoming, 3 Wikipedia pages, 62 D/H lines; nice.
+9. [A004023](https://oeis.org/A004023) — Indices of prime repunits: numbers k such that 11...111 (with k 1's) = (10^k - 1)/9 is prime; score 10.034; 155 incoming, 4 Wikipedia pages, 35 D/H lines; nice.
+10. [A000372](https://oeis.org/A000372) — Dedekind numbers or Dedekind's problem: number of monotone Boolean functions of n variables, number of antichains…; score 9.619; 114 incoming, 2 Wikipedia pages, 95 D/H lines; nice.
+11. [A000798](https://oeis.org/A000798) — Number of different quasi-orders (or topologies, or transitive digraphs) with n labeled elements; score 9.382; 100 incoming, 0 Wikipedia pages, 73 D/H lines; core; nice.
+12. [A076336](https://oeis.org/A076336) — (Provable) Sierpiński numbers: odd numbers n such that for all k >= 1 the numbers n*2^k + 1 are composite; score 9.176; 75 incoming, 5 Wikipedia pages, 29 D/H lines; nice.
+13. [A007097](https://oeis.org/A007097) — Primeth recurrence: a(n+1) = a(n)-th prime; score 9.104; 286 incoming, 0 Wikipedia pages, 16 D/H lines; nice.
+14. [A005820](https://oeis.org/A005820) — 3-perfect (triply perfect, tri-perfect, triperfect or sous-double) numbers: numbers such that the sum of the…; score 9.043; 118 incoming, 2 Wikipedia pages, 22 D/H lines; nice.
+15. [A000162](https://oeis.org/A000162) — Number of 3-dimensional polyominoes (or polycubes) with n cells; score 8.896; 77 incoming, 4 Wikipedia pages, 20 D/H lines; nice.
+16. [A001605](https://oeis.org/A001605) — Indices of prime Fibonacci numbers; score 8.782; 120 incoming, 1 Wikipedia pages, 26 D/H lines; nice.
+17. [A002981](https://oeis.org/A002981) — Numbers k such that k! + 1 is prime; score 8.781; 111 incoming, 1 Wikipedia pages, 33 D/H lines; nice.
+18. [A000170](https://oeis.org/A000170) — Number of ways of placing n nonattacking queens on an n X n board; score 8.772; 91 incoming, 1 Wikipedia pages, 59 D/H lines; nice.
+19. [A002982](https://oeis.org/A002982) — Numbers k such that k! - 1 is prime; score 8.735; 86 incoming, 2 Wikipedia pages, 28 D/H lines; nice.
+20. [A003001](https://oeis.org/A003001) — Smallest number of multiplicative persistence n; score 8.708; 75 incoming, 3 Wikipedia pages, 22 D/H lines; nice.
+21. [A007749](https://oeis.org/A007749) — Numbers k such that k!! - 1 is prime; score 8.697; 59 incoming, 8 Wikipedia pages, 8 D/H lines; nice.
+22. [A000945](https://oeis.org/A000945) — Euclid-Mullin sequence: a(1) = 2, a(n+1) is smallest prime factor of 1 + Product_{k=1..n} a(k); score 8.669; 105 incoming, 1 Wikipedia pages, 30 D/H lines; nice.
+23. [A056654](https://oeis.org/A056654) — Numbers k such that 10*R_k + 3 is prime, where R_k is the repunit (A002275) of length k; score 8.595; 507 incoming, 0 Wikipedia pages, 2 D/H lines.
+24. [A002827](https://oeis.org/A002827) — Unitary perfect numbers: numbers k such that usigma(k) - k = k; score 8.562; 48 incoming, 6 Wikipedia pages, 19 D/H lines; nice.
+25. [A002863](https://oeis.org/A002863) — Number of prime knots with n crossings; score 8.554; 47 incoming, 3 Wikipedia pages, 63 D/H lines; nice.
+26. [A006126](https://oeis.org/A006126) — Number of hierarchical models on n labeled factors or variables with linear terms forced. Also number of antichain…; score 8.535; 162 incoming, 0 Wikipedia pages, 24 D/H lines; nice.
+27. [A007850](https://oeis.org/A007850) — Giuga numbers: composite numbers n such that p divides n/p - 1 for every prime divisor p of n; score 8.421; 55 incoming, 4 Wikipedia pages, 18 D/H lines; nice.
+28. [A001606](https://oeis.org/A001606) — Indices of prime Lucas numbers; score 8.395; 46 incoming, 5 Wikipedia pages, 20 D/H lines; nice.
+29. [A000577](https://oeis.org/A000577) — Number of triangular polyominoes (or triangular polyforms, or polyiamonds) with n cells (turning over is allowed,…; score 8.307; 89 incoming, 1 Wikipedia pages, 21 D/H lines; nice.
+30. [A003459](https://oeis.org/A003459) — Absolute primes (or permutable primes): every permutation of the digits is a prime; score 8.301; 51 incoming, 4 Wikipedia pages, 17 D/H lines; nice.
+
+## What can we infer?
+
+Interest can be estimated only indirectly. Many independent-looking incoming references and links from different Wikipedia pages are useful signals of visibility; specific literature and current evidence of independent work are stronger for research relevance when manually checked. None measures reading, use, correctness, difficulty, or demand. References favor older and central records, Wikipedia favors popular and English-language topics, and OEIS Open/formalization reflects a particular benchmark selection. A sequence with few links may still offer an excellent opportunity. `more` expresses an OEIS need, not proof the next term is feasible or useful.
+
+## CSV definitions and limitations
+
+* `id`, `name`, `keywords`: OEIS identifier, `%N`, and all `%K` tokens. Keywords such as `nice`, `core`, `more`, `unkn`, `fini`, `full`, `base`, `word`, and `obsc` are preserved in the comma-separated field. They have OEIS editorial meanings, can overlap, and are not independent votes.
+* `incoming_all`: number of **other distinct source sequence files** in the full local corpus with an A-number token anywhere in the field content, including `%Y`; repeats within one source count once, self-mentions are excluded. `incoming_Y` is the analogous subset in `%Y`. This is textual linkage, not proof of substantive citation. References from related sequence families, programs and boilerplate can inflate it; older entries have had longer to accumulate links.
+* `references_D`, `links_H`: counts of `%D` and `%H` lines; not unique publications, external links, citations, or independent researchers. `arxiv_link_lines`, `doi_link_lines`: `%H` lines mentioning arxiv.org / arXiv: or doi.org / DOI: respectively; multiple links on a line count once and alternate forms can be missed. `latest_literature_year` is the largest 1900–2026 four-digit year found in D/H line text, a crude proxy for most recent linked paper year; it may be an access date, unrelated number, book year, or missing, and must be checked.
+* `term_count_inline`, `last_term_digits`: comma-delimited terms in `%S/%T/%U`, and decimal digit characters in the last inline item, ignoring sign. Empty is unknown. Expressions, truncated values, decimals, offsets, multi-dimensional encodings, and separate b-files limit interpretation; digit length is not computational cost.
+* `commits`, `commits_since_2024`, `commits_2026`: number of Git commits touching the `.seq` file since the local history began, and subsets with commit date on or after 2024-01-01 and 2026-01-01. An export commit may touch thousands of files, collapse edits, or contain bot activity. The 2026 number is through snapshot date, not a full year.
+* `last_growth`: latest commit date after file creation where the total count of comma-separated inline values added on changed S/T/U diff lines exceeds those removed. It is an observable net-growth proxy, not a semantic comparison, b-file extension, or date of the underlying computation. `last_stu_change` is the latest commit changing any S/T/U line after creation, including corrections and formatting. Empty means no observable event, not no historical event. Git starts with the 2023-02-19 import; dates before it are unavailable. File additions are deliberately not treated as extensions. Other files, full b-files and changes that remove and add the same number of terms are not counted as growth.
+* `conjecture_lines`: number of `%C`/`%F` lines containing case-insensitive `conjecture`, including “conjectured”; a line may mention someone else's conjecture, multiple conjectures, or an already resolved claim. `conjecture_proof_marked_lines` counts these same lines containing a heuristic proof **or disproof/refutation** marker; `conjecture_unmarked_lines` is the remainder, not a count of open conjectures. `conjecture_example` is its first unmarked line. `conjecture_resolution_contexts` also checks an immediately following line that refers to the conjecture and adds “this is true” and “solved” markers; `conjecture_proved_contexts` counts those contexts containing the whole word proved or proven. This is an imprecise indication, cannot establish that a proof was later, can miss nearby or external resolutions, and can associate a marker with the wrong statement.
+* `wikipedia_en_pages`, `wikipedia_ru_pages`, `wikipedia_de_pages`: distinct main-namespace page IDs whose external-link URL contains the A-number in the MediaWiki exturlusage bulk result for `oeis.org/A`, fetched with continuation and one request per second. `wikipedia_all_pages` is their sum, treating pages on different language editions as separate pages. It misses links by other OEIS URL forms, templates or redirects that the API does not expose as these external links, other languages, and pages with no link. Wikimedia links are not page views and tend toward famous topics.
+* `oeis_open_samples`, `oeis_open_sample_ids`: number and exact benchmark IDs in the 492-item `samples.jsonl` associated with the A-number. `oeis_open_attempted_samples` counts IDs with any checked-in individual score in the inspected OEIS runs; `oeis_open_solved_samples` / `oeis_open_solved_ids` count IDs with at least one `proof_scorer.value = C`. This is an accepted checker result at the benchmark version, not independent validation of the formalization, novelty, or the entire OEIS entry. Absence of an accepted result is not proof of openness, and other unrecorded results can exist.
+* `formal_conjectures_oeis`: a Lean file named for the sequence exists in the DeepMind OEIS folder. `formal_category_open`, `formal_category_solved`, `formal_category_test` count matching `@[category ...]` attributes in that file. Categories are the repository's labels, may mix different statements, and a `solved` category can still have `sorry`; it is not a machine-checked proof. The benchmark uses a pinned older formal-conjectures revision, so membership can differ. Zeros mean not found in the inspected snapshots, not proof of absence elsewhere.
+* `erdosproblems_link`: case-insensitive literal `erdosproblems.com` anywhere in the current sequence file. It misses problems referred to by name or other URLs; it does not assert that the linked problem remains open.
+* `watch_score`: the exact composite above, rounded to three decimals for the CSV and ranking. Ties use A-number.
+
+## Verification
+
+The CSV has 10,080 unique hard IDs. All 756 HEAD-present sequences with a 2026 extension in the previous local event extraction also have a 2026 growth date and a 2026 file commit in this pass. This cross-check is not independent of the Git source and does not cover b-file-only work. Spot checks include A087725 (an explicitly refuted conjecture), A000105 (a conjecture marked true), and A248802 (three accepted benchmark sample IDs).
+
+## Provenance and reproducibility
+
+* [OEIS data repository](https://github.com/oeis/oeisdata), read-only local snapshot above; history is one `git log -p` stream. `history.py` counts file touches and inline data diffs; `build.py`, `enrich.py`, and `report.py` produce the outputs. Run them in that order after `wiki.py` for each language. Scripts run within this directory and read the local OEIS checkout.
+* [OEIS Open paper](https://arxiv.org/abs/2608.11941); [LeanOpenProblems](https://github.com/epoch-research/LeanOpenProblems) `6d71225ff2a3793a48d85b46c8c329d6046c473d`; [results](https://github.com/epoch-research/LeanOpenProblems-results) `cbb7cb657f24157d9ebb7640ec50bd35bad78ad8`. All 3,468 individual OEIS run score files present at this results revision were inspected; 3 accepted benchmark samples belong to hard sequences. Individual score files are retained in the sparse, shallow source checkout.
+* [Formal Conjectures OEIS folder](https://github.com/google-deepmind/formal-conjectures/tree/main/FormalConjectures/OEIS) `e4e4a9b0b6031c663a293de43a0f29a379ae03e0`, sparse shallow checkout. The OEIS Open benchmark pins `67338a157bbb8d87e9a349d662f82a868bda6327` instead.
+* [Wikipedia en MediaWiki API](https://en.wikipedia.org/w/api.php?action=query&list=exturlusage&euquery=oeis.org%2FA&eunamespace=0&eulimit=max&format=json): 10 requests, 3952 returned link rows, continuation completed: True; raw JSONL and status retained. The query does not guarantee all possible URL variants.
+* [Wikipedia ru MediaWiki API](https://ru.wikipedia.org/w/api.php?action=query&list=exturlusage&euquery=oeis.org%2FA&eunamespace=0&eulimit=max&format=json): 1 requests, 96 returned link rows, continuation completed: True; raw JSONL and status retained. The query does not guarantee all possible URL variants.
+* [Wikipedia de MediaWiki API](https://de.wikipedia.org/w/api.php?action=query&list=exturlusage&euquery=oeis.org%2FA&eunamespace=0&eulimit=max&format=json): 1 requests, 229 returned link rows, continuation completed: True; raw JSONL and status retained. The query does not guarantee all possible URL variants.

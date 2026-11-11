@@ -1,0 +1,352 @@
+{
+ "2024-01": {
+  "bfiles_added": 1051,
+  "bfiles_modified": 62,
+  "modified_seq_events": 16176,
+  "data_extension_events": 345,
+  "terms_added_in_data": 3170,
+  "new_E_lines": 320,
+  "new_sequences": 1208,
+  "distinct_modified_sequences": 11382
+ },
+ "2024-02": {
+  "bfiles_modified": 94,
+  "bfiles_added": 827,
+  "modified_seq_events": 10347,
+  "data_extension_events": 417,
+  "terms_added_in_data": 3568,
+  "new_E_lines": 455,
+  "new_sequences": 901,
+  "distinct_modified_sequences": 7493
+ },
+ "2024-03": {
+  "bfiles_added": 675,
+  "bfiles_modified": 97,
+  "modified_seq_events": 10707,
+  "data_extension_events": 347,
+  "terms_added_in_data": 2633,
+  "new_E_lines": 445,
+  "new_sequences": 926,
+  "distinct_modified_sequences": 7605
+ },
+ "2024-04": {
+  "bfiles_added": 472,
+  "bfiles_modified": 124,
+  "modified_seq_events": 9006,
+  "new_E_lines": 422,
+  "data_extension_events": 425,
+  "terms_added_in_data": 2327,
+  "new_sequences": 800,
+  "distinct_modified_sequences": 6344
+ },
+ "2024-05": {
+  "bfiles_added": 743,
+  "bfiles_modified": 77,
+  "modified_seq_events": 8901,
+  "new_E_lines": 433,
+  "data_extension_events": 420,
+  "terms_added_in_data": 3217,
+  "new_sequences": 862,
+  "distinct_modified_sequences": 6250
+ },
+ "2024-06": {
+  "bfiles_added": 667,
+  "bfiles_modified": 64,
+  "modified_seq_events": 8369,
+  "data_extension_events": 368,
+  "terms_added_in_data": 2489,
+  "new_E_lines": 432,
+  "new_sequences": 881,
+  "distinct_modified_sequences": 5748
+ },
+ "2024-07": {
+  "bfiles_added": 727,
+  "modified_seq_events": 9800,
+  "new_E_lines": 625,
+  "data_extension_events": 461,
+  "terms_added_in_data": 2289,
+  "new_sequences": 919,
+  "bfiles_modified": 142,
+  "distinct_modified_sequences": 7232
+ },
+ "2024-08": {
+  "bfiles_added": 616,
+  "modified_seq_events": 13015,
+  "data_extension_events": 473,
+  "terms_added_in_data": 2652,
+  "new_E_lines": 626,
+  "new_sequences": 789,
+  "bfiles_modified": 150,
+  "distinct_modified_sequences": 8987
+ },
+ "2024-09": {
+  "bfiles_added": 583,
+  "modified_seq_events": 9489,
+  "new_E_lines": 518,
+  "data_extension_events": 433,
+  "terms_added_in_data": 2532,
+  "new_sequences": 776,
+  "bfiles_modified": 118,
+  "distinct_modified_sequences": 6696
+ },
+ "2024-10": {
+  "bfiles_added": 810,
+  "bfiles_modified": 116,
+  "modified_seq_events": 9181,
+  "new_E_lines": 532,
+  "data_extension_events": 578,
+  "terms_added_in_data": 4007,
+  "new_sequences": 921,
+  "distinct_modified_sequences": 6567
+ },
+ "2024-11": {
+  "bfiles_added": 753,
+  "bfiles_modified": 103,
+  "modified_seq_events": 9410,
+  "new_E_lines": 366,
+  "data_extension_events": 427,
+  "terms_added_in_data": 2272,
+  "new_sequences": 208889,
+  "distinct_modified_sequences": 6819
+ },
+ "2024-12": {
+  "bfiles_added": 999,
+  "modified_seq_events": 11892,
+  "data_extension_events": 692,
+  "terms_added_in_data": 3566,
+  "new_E_lines": 592,
+  "new_sequences": 1191,
+  "bfiles_modified": 157,
+  "distinct_modified_sequences": 8768
+ },
+ "2025-01": {
+  "bfiles_added": 1069,
+  "bfiles_modified": 99,
+  "modified_seq_events": 17752,
+  "data_extension_events": 633,
+  "terms_added_in_data": 4785,
+  "new_E_lines": 545,
+  "new_sequences": 1029,
+  "distinct_modified_sequences": 11767
+ },
+ "2025-02": {
+  "bfiles_added": 658,
+  "bfiles_modified": 124,
+  "modified_seq_events": 34618,
+  "data_extension_events": 488,
+  "terms_added_in_data": 3816,
+  "new_E_lines": 447,
+  "new_sequences": 819,
+  "distinct_modified_sequences": 29801
+ },
+ "2025-03": {
+  "bfiles_added": 799,
+  "bfiles_modified": 142,
+  "modified_seq_events": 32065,
+  "data_extension_events": 619,
+  "terms_added_in_data": 3590,
+  "new_E_lines": 516,
+  "new_sequences": 1006,
+  "distinct_modified_sequences": 28484
+ },
+ "2025-04": {
+  "bfiles_added": 702,
+  "bfiles_modified": 121,
+  "modified_seq_events": 10698,
+  "data_extension_events": 557,
+  "terms_added_in_data": 3668,
+  "new_E_lines": 455,
+  "new_sequences": 995,
+  "distinct_modified_sequences": 7576
+ },
+ "2025-05": {
+  "bfiles_added": 775,
+  "bfiles_modified": 97,
+  "modified_seq_events": 11581,
+  "data_extension_events": 613,
+  "terms_added_in_data": 3494,
+  "new_E_lines": 513,
+  "new_sequences": 994,
+  "distinct_modified_sequences": 8060
+ },
+ "2025-06": {
+  "bfiles_added": 796,
+  "bfiles_modified": 154,
+  "modified_seq_events": 23221,
+  "data_extension_events": 642,
+  "terms_added_in_data": 4500,
+  "new_E_lines": 651,
+  "new_sequences": 980,
+  "distinct_modified_sequences": 14012
+ },
+ "2025-07": {
+  "bfiles_added": 1025,
+  "bfiles_modified": 108,
+  "modified_seq_events": 48542,
+  "new_E_lines": 1891,
+  "data_extension_events": 582,
+  "terms_added_in_data": 3550,
+  "new_sequences": 1104,
+  "distinct_modified_sequences": 33947
+ },
+ "2025-08": {
+  "bfiles_modified": 85,
+  "bfiles_added": 974,
+  "modified_seq_events": 28288,
+  "data_extension_events": 638,
+  "terms_added_in_data": 3175,
+  "new_E_lines": 502,
+  "new_sequences": 851,
+  "distinct_modified_sequences": 24102
+ },
+ "2025-09": {
+  "bfiles_added": 1252,
+  "bfiles_modified": 105,
+  "modified_seq_events": 29727,
+  "data_extension_events": 1054,
+  "terms_added_in_data": 7374,
+  "new_E_lines": 768,
+  "new_sequences": 1731,
+  "distinct_modified_sequences": 22776
+ },
+ "2025-10": {
+  "bfiles_added": 1021,
+  "bfiles_modified": 92,
+  "modified_seq_events": 54281,
+  "data_extension_events": 1030,
+  "terms_added_in_data": 5399,
+  "new_E_lines": 677,
+  "new_sequences": 12003,
+  "distinct_modified_sequences": 35350
+ },
+ "2025-11": {
+  "bfiles_added": 1546,
+  "bfiles_modified": 116,
+  "modified_seq_events": 58781,
+  "data_extension_events": 929,
+  "terms_added_in_data": 6824,
+  "new_sequences": 859,
+  "new_E_lines": 673,
+  "distinct_modified_sequences": 31268
+ },
+ "2025-12": {
+  "bfiles_added": 1388,
+  "modified_seq_events": 18493,
+  "data_extension_events": 1074,
+  "terms_added_in_data": 6177,
+  "new_E_lines": 631,
+  "new_sequences": 954,
+  "bfiles_modified": 154,
+  "distinct_modified_sequences": 12354
+ },
+ "2026-01": {
+  "bfiles_modified": 166,
+  "bfiles_added": 908,
+  "modified_seq_events": 11395,
+  "data_extension_events": 716,
+  "terms_added_in_data": 3537,
+  "new_E_lines": 548,
+  "new_sequences": 949,
+  "distinct_modified_sequences": 7970
+ },
+ "2026-02": {
+  "bfiles_modified": 174,
+  "bfiles_added": 801,
+  "modified_seq_events": 10460,
+  "data_extension_events": 597,
+  "terms_added_in_data": 2796,
+  "new_E_lines": 401,
+  "new_sequences": 743,
+  "distinct_modified_sequences": 7327
+ },
+ "2026-03": {
+  "bfiles_added": 945,
+  "bfiles_modified": 120,
+  "modified_seq_events": 14332,
+  "data_extension_events": 574,
+  "terms_added_in_data": 2874,
+  "new_E_lines": 498,
+  "new_sequences": 985,
+  "distinct_modified_sequences": 9340
+ },
+ "2026-04": {
+  "bfiles_added": 677,
+  "modified_seq_events": 10032,
+  "data_extension_events": 478,
+  "terms_added_in_data": 2913,
+  "new_E_lines": 377,
+  "new_sequences": 822,
+  "bfiles_modified": 79,
+  "distinct_modified_sequences": 7038
+ },
+ "2026-05": {
+  "bfiles_added": 705,
+  "bfiles_modified": 95,
+  "modified_seq_events": 9412,
+  "data_extension_events": 449,
+  "terms_added_in_data": 2735,
+  "new_E_lines": 449,
+  "new_sequences": 896,
+  "distinct_modified_sequences": 7086
+ },
+ "2026-06": {
+  "bfiles_added": 756,
+  "bfiles_modified": 90,
+  "modified_seq_events": 39320,
+  "data_extension_events": 789,
+  "terms_added_in_data": 3539,
+  "new_E_lines": 638,
+  "new_sequences": 1037,
+  "distinct_modified_sequences": 23093
+ },
+ "2026-07": {
+  "bfiles_added": 864,
+  "bfiles_modified": 88,
+  "modified_seq_events": 26281,
+  "data_extension_events": 730,
+  "terms_added_in_data": 3739,
+  "new_E_lines": 777,
+  "new_sequences": 890,
+  "distinct_modified_sequences": 16726
+ },
+ "2026-08": {
+  "bfiles_modified": 129,
+  "bfiles_added": 902,
+  "modified_seq_events": 14681,
+  "data_extension_events": 720,
+  "terms_added_in_data": 3636,
+  "new_E_lines": 553,
+  "new_sequences": 898,
+  "distinct_modified_sequences": 10207
+ },
+ "2026-09": {
+  "bfiles_modified": 270,
+  "bfiles_added": 928,
+  "modified_seq_events": 12069,
+  "data_extension_events": 758,
+  "terms_added_in_data": 3541,
+  "new_E_lines": 709,
+  "new_sequences": 961,
+  "distinct_modified_sequences": 8980
+ },
+ "2026-10": {
+  "bfiles_modified": 277,
+  "bfiles_added": 1347,
+  "modified_seq_events": 15286,
+  "data_extension_events": 1018,
+  "terms_added_in_data": 5415,
+  "new_E_lines": 1301,
+  "new_sequences": 1087,
+  "distinct_modified_sequences": 10324
+ },
+ "2026-11": {
+  "bfiles_modified": 214,
+  "bfiles_added": 544,
+  "modified_seq_events": 6658,
+  "new_E_lines": 988,
+  "data_extension_events": 303,
+  "terms_added_in_data": 1883,
+  "new_sequences": 406,
+  "distinct_modified_sequences": 6372
+ }
+}
