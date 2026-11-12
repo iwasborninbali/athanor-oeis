@@ -53,7 +53,7 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 10. [A011541](https://oeis.org/A011541) — Growth of the number of distinct prime factors; not found in either set; 60 incoming references.
 11. [A006794](https://oeis.org/A006794) — A bound for the prime preceding a prime p# − 1; not found in either set; 27 incoming references.
 12. [A005234](https://oeis.org/A005234) — A bound for the prime following a prime p# + 1; not found in either set; 23 incoming references.
-13. [A048211](https://oeis.org/A048211) — Conjectured limiting ratio around 2.54; not found in either set; 29 incoming references.
+13. [A048211](https://oeis.org/A048211) — Conjectured limiting ratio around 2.54; not found in either set; 29 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A048211-resistance-growth-ratio/answers/2026-11-12-chatgpt.md).
 14. [A092506](https://oeis.org/A092506) — Completeness of listed solutions to a totient equation; not found in either set; 49 incoming references. **Proved (12 Nov 2026 check, elementary; OEIS comment pending)**, see [task](../../tasks/2026-11-12-A092506-totient-equation/answers/2026-11-12-chatgpt.md).
 15. [A051783](https://oeis.org/A051783) — Primality characterization for 3^k + 2; not found in either set; 50 incoming references.
 16. [A191363](https://oeis.org/A191363) — Whether 3 is the only odd term; not found in either set; 41 incoming references.
@@ -62,14 +62,14 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 19. [A064591](https://oeis.org/A064591) — A characterization using reciprocal sums over divisors; not found in either set; 26 incoming references. **Open; exact reduction to Ligh–Wall plus no odd perfect numbers (12 Nov 2026 check)**, see [task](../../tasks/2026-11-12-A064591-nonunitary-perfect-inverses/answers/2026-11-12-chatgpt.md).
 20. [A058129](https://oeis.org/A058129) — An asymptotic relation to A027851; not found in either set; 16 incoming references.
 21. [A059442](https://oeis.org/A059442) — The fence conjecture for the stated Ramsey bound; not found in either set; 7 incoming references. **Refuted (12 Nov 2026 check): Erdős's bound beats the fence bound at m = n = 74; OEIS comment pending**, see [task](../../tasks/2026-11-12-A059442-ramsey-fence/answers/2026-11-12-chatgpt.md).
-22. [A347391](https://oeis.org/A347391) — Whether the sequence is finite; not found in either set; 23 incoming references.
+22. [A347391](https://oeis.org/A347391) — Whether the sequence is finite; not found in either set; 23 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A347391-doudna-sigma-finite/answers/2026-11-12-chatgpt.md).
 23. [A038552](https://oeis.org/A038552) — An open largest-discriminant conjecture; the formal file also marks a different statement solved; formal-conjectures; 9 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A038552-class-number-discriminant/answers/2026-11-12-chatgpt.md).
-24. [A051602](https://oeis.org/A051602) — An asymptotic density conjecture for maximal grid arrangements; not found in either set; 6 incoming references.
+24. [A051602](https://oeis.org/A051602) — An asymptotic density conjecture for maximal grid arrangements; not found in either set; 6 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A051602-grid-arrangement-density/answers/2026-11-12-chatgpt.md).
 25. [A345370](https://oeis.org/A345370) — A proposed value for a(12); not found in either set; 9 incoming references.
 26. [A340726](https://oeis.org/A340726) — Maximum numerator–denominator product for resistor networks; OEIS Open; 3 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A340726-resistor-power/answers/2026-11-12-chatgpt.md).
-27. [A119591](https://oeis.org/A119591) — Whether a(n) exists for every n ≥ 2; OEIS Open + formal-conjectures; 2 incoming references.
+27. [A119591](https://oeis.org/A119591) — Whether a(n) exists for every n ≥ 2; OEIS Open + formal-conjectures; 2 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A119591-least-k-2nk-minus-1/answers/2026-11-12-chatgpt.md).
 28. [A334916](https://oeis.org/A334916) — Whether a base other than 6 or 10 has a unique baseless number; OEIS Open; 1 incoming references.
-29. [A358684](https://oeis.org/A358684) — Conjecture II, a(n) ~ 2^n; the entry reports Conjecture I solved; OEIS Open + formal-conjectures; 0 incoming references.
+29. [A358684](https://oeis.org/A358684) — Conjecture II, a(n) ~ 2^n; the entry reports Conjecture I solved; OEIS Open + formal-conjectures; 0 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A358684-fermat-factor-conjecture-ii/answers/2026-11-12-chatgpt.md).
 30. [A229232](https://oeis.org/A229232) — Whether a(n) is positive for n > 5 except n = 13; OEIS Open + formal-conjectures; 0 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A229232-sun-circular-primes/answers/2026-11-12-chatgpt.md).
 
 ## C. Most watched by a transparent composite
