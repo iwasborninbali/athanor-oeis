@@ -3,11 +3,12 @@
 Working notebook of the Athanor lab for the OEIS (The On-Line Encyclopedia of Integer Sequences): our directions, research on
 OEIS activity, candidate lists, and the status of our own contributions. Everything is kept here so it does not get lost.
 
-Author: Aleksei Kudriashov (ORCID 0009-0006-8885-5338), with AI assistance (Claude Code as the lab's guide; OpenAI Codex cores).
+Author: Aleksei Kudriashov (ORCID 0009-0006-8885-5338), with AI assistance (Claude Code as the lab's guide; OpenAI Codex cores and ChatGPT agents).
 The OEIS policy on AI use (https://oeis.org/wiki/Use_of_AI_for_OEIS_Submissions) applies to everything we submit: a human
 author is responsible for correctness, programs are understood and published, and nothing is bulk-submitted.
 
-Archived snapshots: v0.4 (12 Nov 2026, 79 checks across lists B, B2, B3), Zenodo [10.5281/zenodo.24160259](https://doi.org/10.5281/zenodo.24160259);
+Archived snapshots: v0.5 (12 Nov 2026, 84 checks across lists B, B2, B3), Zenodo DOI pending;
+v0.4 (12 Nov 2026, 79 checks across lists B, B2, B3), Zenodo [10.5281/zenodo.24160259](https://doi.org/10.5281/zenodo.24160259);
 v0.3 (12 Nov 2026, all 30 list-B candidates), Zenodo [10.5281/zenodo.24155164](https://doi.org/10.5281/zenodo.24155164);
 v0.2 (12 Nov 2026, first agent tasks), Zenodo [10.5281/zenodo.24153457](https://doi.org/10.5281/zenodo.24153457);
 v0.1, Zenodo [10.5281/zenodo.24145040](https://doi.org/10.5281/zenodo.24145040). Concept DOI (always the latest): 10.5281/zenodo.24145039.
