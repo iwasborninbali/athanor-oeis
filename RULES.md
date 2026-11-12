@@ -126,6 +126,12 @@ The search is repeated just before submission. If someone else got there first, 
 which part is ours: an independent verification, an extension, or nothing new. Third-party data and papers are not copied into
 our repositories: a fetch script with the URL and checksum instead.
 
+Third-party data are taken from the author's **current** source, never from an old mirror or a stale directory, and the
+repository records the version: URL, date, size, SHA-256 and a freshness marker. Example (Alex, 13 Nov 2026): Flammenkamp's
+no-three-in-line database is current in `download/all_known_solutions` (dated 2026-10-28, largest grid size n = 78 on
+13 Nov 2026); the per-size files in `download/configurations/` are older copies and older copies are hosted elsewhere too.
+Before relying on third-party data, compare what was checked with the current version.
+
 ## 6. Submitting
 
 - From Aleksei Kudriashov's OEIS account, through `oeisb`, one edit at a time; at most three open drafts (OEIS limit).

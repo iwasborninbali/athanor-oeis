@@ -10,15 +10,19 @@
    "title": "a(7)-a(12) of the greatest prime with exactly n consecutive quadratic residues",
    "claim": "a(7)..a(12) = 4481, 9857, 25793, 60961, 132113, 324673",
    "state": "proposed",
-   "certificate": "complete",
-   "guide_check": "second full scan for a(12) run by the guide on the VM (12 Nov 2026)",
+   "certificate": "partial",
+   "guide_check": "second full scan of a(12) by the guide (12 Nov 2026); the independent check of a(11) was a sample scan only (found by core c7, 13 Nov 2026)",
    "prior_art": "Buell and Hudson (1984) had the search range covering a(7)-a(8); credited in the entry",
-   "next": "wait for editors; answer notes by fixing the entry",
+   "next": "guide: full independent rescan of a(11) (running, two shards); certificate complete when it agrees",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "proposed (draft); notes fixed and resubmitted"
+    ],
+    [
+     "2026-11-13",
+     "gap found: no independent full scan of a(11); guide rescan started"
     ]
    ],
    "source": null
@@ -51,16 +55,20 @@
    "kind": "link",
    "title": "replace the no3-results link by the repository link",
    "claim": null,
-   "state": "queued",
+   "state": "proposed",
    "certificate": "complete",
    "guide_check": "link target checked by the guide",
    "prior_art": null,
-   "next": "submit when a draft slot is free",
+   "next": "wait for editors; answer notes by fixing the entry",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "queued"
+    ],
+    [
+     "2026-11-13",
+     "submitted: no3-results link replaced by oeis-A398172"
     ]
    ],
    "source": null
@@ -93,12 +101,12 @@
    "kind": "data",
    "title": "supporting file: maximal subsets by size, n = 1..10",
    "claim": null,
-   "state": "reviewed",
+   "state": "approved",
    "certificate": "complete",
    "guide_check": "same two programs, cell by cell",
    "prior_art": null,
-   "next": "wait for approval",
-   "owner": "editors",
+   "next": null,
+   "owner": "-",
    "history": [
     [
      "2026-11-12",
@@ -107,6 +115,10 @@
     [
      "2026-11-13",
      "reviewed (edit #72, Andrew Howroyd, no notes)"
+    ],
+    [
+     "2026-11-13",
+     "approved (live revision #73)"
     ]
    ],
    "source": null
@@ -118,12 +130,12 @@
    "kind": "data",
    "title": "b-file rows n = 9, 10 (terms 1..120)",
    "claim": null,
-   "state": "reviewed",
+   "state": "approved",
    "certificate": "complete",
    "guide_check": "two independent programs agree cell by cell, 512/512 shards each for n = 10",
    "prior_art": null,
-   "next": "wait for approval",
-   "owner": "editors",
+   "next": null,
+   "owner": "-",
    "history": [
     [
      "2026-11-12",
@@ -132,6 +144,10 @@
     [
      "2026-11-13",
      "reviewed (edit #41, Andrew Howroyd, no notes)"
+    ],
+    [
+     "2026-11-13",
+     "approved (live revision #43)"
     ]
    ],
    "source": null
@@ -144,15 +160,19 @@
    "title": "no three collinear in the n X n X n grid: a(1..6)",
    "claim": "1, 8, 16, 28, 40, 64",
    "state": "approved",
-   "certificate": "complete",
-   "guide_check": "witnesses rechecked with the guide's own checker (Nov 2026)",
+   "certificate": "partial",
+   "guide_check": "all witnesses rechecked with the guide's own code; the upper bounds a(5) <= 40 and a(6) <= 64 rest on SAT runs without retained proof traces (found by core c7)",
    "prior_art": null,
-   "next": null,
-   "owner": "-",
+   "next": "independent recheck of the upper bounds a(5) <= 40, a(6) <= 64 (a SAT run with a DRAT proof, or a ChatGPT agent recount)",
+   "owner": "guide",
    "history": [
     [
      "2026-08-19",
      "sequence created"
+    ],
+    [
+     "2026-11-13",
+     "gap found: upper-bound proofs for n = 5, 6 not retained"
     ]
    ],
    "source": null
@@ -164,16 +184,20 @@
    "kind": "correction",
    "title": "delete our false comment on layer profiles; witness file n = 1..11 (a(9) >= 116, a(10) >= 138, a(11) >= 164)",
    "claim": null,
-   "state": "queued",
+   "state": "proposed",
    "certificate": "complete",
    "guide_check": "nonuniform 40-point n = 5 optimum and all witnesses checked with the guide's own code (no3d.py)",
    "prior_art": null,
-   "next": "submit when a slot is free (plan in oeis-bridge work/A399138-plan.py); any replacement comment in Alex's words",
+   "next": "wait for editors; answer notes by fixing the entry",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "prepared and queued"
+    ],
+    [
+     "2026-11-13",
+     "submitted: false layer-profile comment deleted; witness file a399138_1.txt (n = 1..11); repository link"
     ]
    ],
    "source": null
@@ -250,7 +274,7 @@
    "claim": null,
    "state": "queued",
    "certificate": "complete",
-   "guide_check": "check script rerun by the guide (Nov 2026)",
+   "guide_check": "collinearity of all 118057 representatives and orbit sums checked by the guide; n = 20 part identical to the current database (all_known_solutions, 2026-10-28, n <= 78)",
    "prior_art": null,
    "next": "submit when a slot is free",
    "owner": "guide",
@@ -874,20 +898,24 @@
   {
    "id": "A081978-correction",
    "anum": "A081978",
-   "repo": null,
+   "repo": "oeis-A081978-unsubmitted",
    "kind": "correction",
    "title": "third form should be (p^r+1)/2",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -895,20 +923,24 @@
   {
    "id": "A011541-correction",
    "anum": "A011541",
-   "repo": null,
+   "repo": "oeis-A011541-unsubmitted",
    "kind": "correction",
    "title": "remark on Pavlov's conjecture vs the bound 101^3*a(6)",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -916,20 +948,24 @@
   {
    "id": "A000170-correction",
    "anum": "A000170",
-   "repo": null,
+   "repo": "oeis-A000170-unsubmitted",
    "kind": "correction",
    "title": "asymptotic constants 0.944 / 2.570, not 0.90 / 2.54 (Simkin)",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "partial",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -937,20 +973,24 @@
   {
    "id": "A023194-correction",
    "anum": "A023194",
-   "repo": null,
+   "repo": "oeis-A023194-unsubmitted",
    "kind": "correction",
    "title": "the 'Proof' assumes the Goormaghtigh conjecture (check Grantham 2024)",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -958,20 +998,24 @@
   {
    "id": "A001419-reference",
    "anum": "A001419",
-   "repo": null,
+   "repo": "oeis-A001419-unsubmitted",
    "kind": "reference",
    "title": "Madras, Ann. Comb. 3 (1999)",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -979,20 +1023,24 @@
   {
    "id": "A005432-reference",
    "anum": "A005432",
-   "repo": null,
+   "repo": "oeis-A005432-unsubmitted",
    "kind": "reference",
    "title": "Roney-Dougal and Tracey, arXiv:2503.05416",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -1000,20 +1048,24 @@
   {
    "id": "A046747-reference",
    "anum": "A046747",
-   "repo": null,
+   "repo": "oeis-A046747-unsubmitted",
    "kind": "reference",
    "title": "Hu, Song and Wu, arXiv:2609.39463 (preprint)",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -1021,20 +1073,24 @@
   {
    "id": "A387098-reference",
    "anum": "A387098",
-   "repo": null,
+   "repo": "oeis-A387098-unsubmitted",
    "kind": "reference",
    "title": "Minevich et al., arXiv:2411.02251",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -1050,12 +1106,16 @@
    "certificate": "none",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "reference already in the entry (Sondow 2014); open question: the Ordowski-Resta line (Jul 25 2018) still calls the power-sum criterion a conjecture",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "core c6: reference already present; no repository"
     ]
    ],
    "source": null
@@ -1063,20 +1123,24 @@
   {
    "id": "A262181-reference",
    "anum": "A262181",
-   "repo": null,
+   "repo": "oeis-A262181-unsubmitted",
    "kind": "reference",
    "title": "Poonen and Rubinstein 1998, Lemma 2",
    "claim": null,
-   "state": "idea",
-   "certificate": "none",
+   "state": "candidate",
+   "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c6)"
     ]
    ],
    "source": null
@@ -1092,12 +1156,16 @@
    "certificate": "none",
    "guide_check": null,
    "prior_art": null,
-   "next": "repository to be built (core c6); the source must be read",
+   "next": "cross-reference to A339494 already present; open question: the conjecture T(n,2) = A000071(n+2) is still labelled a conjecture",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found in the conjecture checks"
+    ],
+    [
+     "2026-11-13",
+     "core c6: cross-reference already present; no repository"
     ]
    ],
    "source": null
