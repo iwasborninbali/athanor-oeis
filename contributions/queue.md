@@ -7,10 +7,10 @@ Comment text (%C) only in Alex's own words; otherwise link-only edits (OEIS AI p
 
 | # | Entry | What | State |
 |---|---|---|---|
-| 1 | A097160 | a(7)-a(12) = 4481 … 324673 (Weil cutoff + two full scans) | proposed Nov 12 (Buell-Hudson 1984 cited; a(7)-a(8) reinstated, a(9)-a(12) new) |
+| 1 | A097160 | a(7)-a(12) = 4481 … 324673 (Weil cutoff + two full scans) | proposed Nov 12 (Buell-Hudson 1984 cited; a(7)-a(8) reinstated, a(9)-a(12) new); editors' notes answered by fixing the entry (links in alphabetical order, Zenodo duplicate removed), resubmitted |
 | 2 | A398172 | a(9), a(10) | **approved Nov 12** |
 | 3 | A398184 | a(9), a(10) | **approved Nov 12** |
-| 4 | A398580 | rows n = 9, 10 (b-file, terms 1..120; row 8 credit to Sean A. Irvine kept) | proposed Nov 12 |
+| 4 | A398580 | rows n = 9, 10 (b-file, terms 1..120; row 8 credit to Sean A. Irvine kept) | proposed Nov 12 (Michel Marcus split an example line) |
 | 5 | A398184 | supporting file "maximal subsets by size" n = 1..7 -> 1..10 | proposed Nov 12 (a398184_1.txt replaces the n = 1..7 link) |
 
 ## 2. New results (proof file uploaded or linked; link-only unless Alex writes a comment)

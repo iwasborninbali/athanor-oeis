@@ -29,10 +29,20 @@ See [directions.md](directions.md) for the reasoning, the competitive landscape 
 |---|---|
 | [directions.md](directions.md) | The three directions, strategy, landscape (AI labs, benchmarks), ideas queue |
 | [contributions/](contributions/README.md) | Our OEIS sequences and pending edits, with links to certificates |
+| [contributions/queue.md](contributions/queue.md) | The submission queue: every planned edit, in order, with its state |
 | [research/2026-11-activity/](research/2026-11-activity/summary.md) | Monthly OEIS activity 2024-2026, overall and for `hard` |
 | [research/2026-11-hard-2026/](research/2026-11-hard-2026/report.md) | Who and what is behind the 2026 rise in `hard` activity; where AI is visible |
 | [research/2026-11-hard-ranking/](research/2026-11-hard-ranking/README.md) | Interest and opportunity metrics for all 10,080 `hard` sequences; three candidate lists |
 | [tasks/](tasks/README.md) | Self-contained tasks for AI agents, one link each, with reviewed answers |
+
+## Submitting to the OEIS
+
+Edits are submitted from Aleksei Kudriashov's OEIS account, one reviewed edit at a time, following the queue above.
+The guide prepares and submits them with a local browser bridge (`oeisb`, a separate private tool): entry text through the
+internal edit form, files (b-files, supporting files) through the regular edit form, then "ready for review".
+Rules we keep: the OEIS allows at most three open drafts per contributor; comment text (%C) and any reply to editors are
+the human author's own words, never generated (OEIS AI policy); data, links and credit lines rest on our certificates;
+no bulk or serial submissions. Editors' notes are watched and answered by fixing the entry itself.
 
 ## Reproducing
 
