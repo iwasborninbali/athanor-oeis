@@ -596,14 +596,14 @@
    "anum": null,
    "repo": "oeis-A______-barnette-graphs-colour-separation-defect",
    "kind": "new-sequence",
-   "title": "Barnette graphs with positive colour-separation defect",
-   "claim": "0 through n = 38, then 2, 0, 8, 88 (n = 40..46)",
-   "state": "not-for-oeis",
-   "certificate": "partial",
-   "guide_check": null,
-   "prior_art": "Alt, Payne, Schmidt and Wood (2016): qualitative failure of the separation property; decision (guide, 13 Nov 2026): not an OEIS sequence: the defect is our own ad hoc notion, the data are sixteen zeros and four nonzero terms, and the counts for n = 42..46 are not independently certified; kept in its repository",
-   "next": null,
-   "owner": "-",
+   "title": "Barnette graphs on 2n vertices with no Hamiltonian cycle separating two face colour classes",
+   "claim": "0 for 8..38 vertices, then 2, 0, 8, 88 at 40, 42, 44, 46 vertices",
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "own program (bsep.c, 2-factor method, no cycle enumeration) agrees for 8..46 vertices; graph counts equal A007083",
+   "prior_art": "Alt, Payne, Schmidt and Wood (2016), Theorem 4: graphs where every Hamiltonian cycle has at least k faces of each colour on each side (the weaker one-class property S1 fails); the counts by order are not in the OEIS",
+   "next": "extend to 48, 50, 52 vertices (guide on the VM, queued) and by a ChatGPT agent (verify-barnette-separation, running), also for the weaker property S1; then choose S2, S1 or both",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
@@ -616,6 +616,10 @@
     [
      "2026-11-13",
      "decided: not for the OEIS (see prior_art field for the reason)"
+    ],
+    [
+     "2026-11-13",
+     "reconsidered with Alex: the two failed criteria (few terms, uncertified 42..46) are fixable by computing; guide recount 8..46 agrees"
     ]
    ],
    "source": "barnette"
