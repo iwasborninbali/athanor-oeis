@@ -101,9 +101,19 @@ and can run the computation there.
    each reply computes as much as fits (about 10-20 minutes), saves a checkpoint, and reports what fraction is done; the
    guide continues it with `cgpt thread verify-<slug> "continue from the checkpoint"` until it is finished. If the checkpoint
    is lost (container reset), the agent says so and restarts from the last state it reported.
-4. **What comes back.** The agent's program, the exact commands, the output, the container's cores and memory, run times,
-   and SHA-256 of every result file. Text artefacts come back in chunks with per-chunk hashes (see the bridge skill).
-   Everything is saved next to the task (`answer.md`, `program/`, `logs/`).
+4. **What comes back: everything at once, pushed to git.** (Alex, 13 Nov 2026.) The agent pushes its results through
+   ChatGPT's GitHub connector to a new branch `chatgpt/<date>-<slug>` of the candidate's repository (a fork of our own
+   repository is not possible through the connector, which acts as the same account, so the branch plays the fork), into
+   `verification/chatgpt/<date>-<slug>/result/`: programs, logs, checkpoints, witnesses, `MANIFEST.sha256` of every file, and
+   `REPORT.md` with the exact commands, the outputs, the container's cores and memory and the run times; then it opens a
+   draft pull request into `main`. Never `main` itself. After pushing, the agent reads every file back through the connector
+   and compares hashes (seen on 13 Nov 2026: some '?' characters became NUL bytes in transit; restoring them reproduced the
+   manifest exactly, and the guide's repair is a separate commit on the branch). The guide reviews the branch, checks the
+   manifest, reruns the agent's programs, and merges.
+   Fallback when the connector cannot reach the repository: one archive (`result-<slug>.zip` with the same contents)
+   attached to the reply, with its SHA-256 in the text, downloaded with `cgpt download --thread verify-<slug>`. Observed on
+   13 Nov 2026: the bridge cannot download a file the agent shows as an inline sandbox link without a file card, so git is
+   the primary channel.
 5. **Before it counts.** The guide reads the agent's program, checks that it computes the stated definition, reruns it locally
    on the small cases (and on a large one if the machine allows), and only then records the recount in `CERTIFICATE.md`
    as an independent check, naming the agent, the thread and the date. An agent's report that was not reviewed this way is a report.

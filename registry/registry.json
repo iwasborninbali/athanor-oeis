@@ -336,16 +336,20 @@
    "kind": "new-sequence",
    "title": "least-visited-neighbour walk, worst first-cover time on connected subcubic graphs",
    "claim": "0,1,3,7,11,17,27,34,45,57,74,90",
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition",
-   "owner": "guide",
+   "next": "Alex: name and definition (%N); then queue as a new sequence",
+   "owner": "Alex",
    "history": [
     [
      "2026-11-13",
      "repository built (core c2)"
+    ],
+    [
+     "2026-11-13",
+     "verified: independent ChatGPT recount to n = 12, rerun by the guide"
     ]
    ],
    "source": "athanor-learning-theory lfv-exploration/"
@@ -357,16 +361,20 @@
    "kind": "new-sequence",
    "title": "same walk, largest visit count before first cover",
    "claim": "0,1,2,3,5,7,8,8,14,16,22,22",
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition",
-   "owner": "guide",
+   "next": "Alex: name and definition (%N); then queue as a new sequence",
+   "owner": "Alex",
    "history": [
     [
      "2026-11-13",
      "repository built (core c2)"
+    ],
+    [
+     "2026-11-13",
+     "verified: independent ChatGPT recount to n = 12, rerun by the guide"
     ]
    ],
    "source": "athanor-learning-theory lfv-exploration/"
@@ -378,16 +386,20 @@
    "kind": "new-sequence",
    "title": "same walk, worst first-cover time on subcubic trees",
    "claim": "0,1,3,7,11,17,27,31,43,57,63,83",
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition",
-   "owner": "guide",
+   "next": "Alex: name and definition (%N); then queue as a new sequence",
+   "owner": "Alex",
    "history": [
     [
      "2026-11-13",
      "repository built (core c2)"
+    ],
+    [
+     "2026-11-13",
+     "verified: independent ChatGPT recount to n = 12, rerun by the guide"
     ]
    ],
    "source": "athanor-learning-theory lfv-exploration/"
@@ -399,16 +411,20 @@
    "kind": "new-sequence",
    "title": "same walk, worst first-cover time on cubic graphs (n = 4..12 even)",
    "claim": "3,8,15,26,42",
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition; five terms only",
-   "owner": "guide",
+   "next": "Alex: name and definition (%N); then queue as a new sequence (five terms only: maybe extend first)",
+   "owner": "Alex",
    "history": [
     [
      "2026-11-13",
      "repository built (core c2)"
+    ],
+    [
+     "2026-11-13",
+     "verified: independent ChatGPT recount to n = 12, rerun by the guide"
     ]
    ],
    "source": "athanor-learning-theory lfv-exploration/"
@@ -525,20 +541,24 @@
   {
    "id": "N6-barnette-min-hc",
    "anum": null,
-   "repo": null,
+   "repo": "oeis-A______-barnette-graphs-min-hamiltonian-cycles",
    "kind": "new-sequence",
    "title": "minimum number of Hamiltonian cycles of a Barnette graph on n vertices",
    "claim": "6, 8, 12, 10, 16, 12, 20, 14, 24, 16, 28, 18, 32, 20, 36, 22, 40, 24, 44 (n = 8, 12, 14, ..., 46)",
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
    "guide_check": null,
-   "prior_art": null,
-   "next": "repository being built (core c4)",
+   "prior_art": "Austin Gibbons, github.com/AustinBGibbons/barnette RESULTS.md (July 2026), same table through 48 vertices; not in the OEIS",
+   "next": "independent census of the minimum for n = 28..46 (beyond the replayed range); credit Gibbons; Alex: name and definition",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "briefed to core c4"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c4); prior art found: Gibbons (July 2026)"
     ]
    ],
    "source": "barnette"
@@ -546,20 +566,24 @@
   {
    "id": "K09-barnette-defect",
    "anum": null,
-   "repo": null,
+   "repo": "oeis-A______-barnette-graphs-colour-separation-defect",
    "kind": "new-sequence",
    "title": "Barnette graphs with positive colour-separation defect",
    "claim": "0 through n = 38, then 2, 0, 8, 88 (n = 40..46)",
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
    "guide_check": null,
-   "prior_art": null,
-   "next": "repository being built (core c4); doubtful as a sequence (four nonzero terms)",
-   "owner": "guide",
+   "prior_art": "Alt, Payne, Schmidt and Wood (2016): qualitative failure of the separation property",
+   "next": "doubtful as an OEIS sequence (sixteen zeros, four nonzero terms); Alex decides; independent census n = 42..46 if kept",
+   "owner": "Alex",
    "history": [
     [
      "2026-11-13",
      "briefed to core c4"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c4)"
     ]
    ],
    "source": "barnette"
@@ -567,15 +591,15 @@
   {
    "id": "A332101-result",
    "anum": "A332101",
-   "repo": null,
+   "repo": "oeis-A332101-unsubmitted",
    "kind": "correction",
    "title": "formula a(n) = A078607(n) + 2 fails at n = 777451915729368",
    "claim": null,
-   "state": "idea",
-   "certificate": "partial",
-   "guide_check": null,
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -585,6 +609,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -592,15 +620,15 @@
   {
    "id": "A092506-result",
    "anum": "A092506",
-   "repo": null,
+   "repo": "oeis-A092506-unsubmitted",
    "kind": "proof",
    "title": "Cloitre's conjecture proved (iff x = 2 or a Fermat prime)",
    "claim": null,
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
-   "guide_check": null,
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -610,6 +638,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -617,15 +649,15 @@
   {
    "id": "A328151-result",
    "anum": "A328151",
-   "repo": null,
+   "repo": "oeis-A328151-unsubmitted",
    "kind": "proof",
    "title": "Schoenfield's identities proved (D(2m^2) = D(m^2))",
    "claim": null,
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
-   "guide_check": null,
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -635,6 +667,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -642,15 +678,15 @@
   {
    "id": "A167809-result",
    "anum": "A167809",
-   "repo": null,
+   "repo": "oeis-A167809-unsubmitted",
    "kind": "proof",
    "title": "a(n) >= Catalan(n) proved (Dyck-path injection)",
    "claim": null,
-   "state": "idea",
-   "certificate": "partial",
-   "guide_check": null,
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -660,6 +696,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -667,15 +707,15 @@
   {
    "id": "A075245-result",
    "anum": "A075245",
-   "repo": null,
+   "repo": "oeis-A075245-unsubmitted",
    "kind": "correction",
    "title": "conjectured formula fails at n = 409 (10 failures up to 2000)",
    "claim": null,
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
-   "guide_check": null,
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -685,6 +725,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -692,15 +736,15 @@
   {
    "id": "A007097-result",
    "anum": "A007097",
-   "repo": null,
+   "repo": "oeis-A007097-unsubmitted",
    "kind": "correction",
    "title": "conjecture of Mar 26 2015 false; corrected asymptotic",
    "claim": null,
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
-   "guide_check": null,
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -710,6 +754,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -717,15 +765,15 @@
   {
    "id": "A059442-result",
    "anum": "A059442",
-   "repo": null,
+   "repo": "oeis-A059442-unsubmitted",
    "kind": "correction",
    "title": "Fence conjecture fails at m = n = 74 (Erdos 1947)",
    "claim": null,
-   "state": "idea",
-   "certificate": "partial",
-   "guide_check": null,
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -735,6 +783,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -742,15 +794,15 @@
   {
    "id": "A004137-result",
    "anum": "A004137",
-   "repo": null,
+   "repo": "oeis-A004137-unsubmitted",
    "kind": "correction",
    "title": "hypothesis of Oct 09 2011 false as worded (example in A193802)",
    "claim": null,
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
-   "guide_check": null,
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -760,6 +812,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
@@ -767,15 +823,15 @@
   {
    "id": "A064591-result",
    "anum": "A064591",
-   "repo": null,
+   "repo": "oeis-A064591-unsubmitted",
    "kind": "proof",
    "title": "Lagneau's conjecture equivalent to Ligh-Wall plus no odd perfect numbers",
    "claim": null,
-   "state": "idea",
+   "state": "candidate",
    "certificate": "partial",
-   "guide_check": null,
+   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "repository being built (core c5); then guide's check",
+   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
    "owner": "guide",
    "history": [
     [
@@ -785,6 +841,10 @@
     [
      "2026-11-13",
      "briefed to core c5"
+    ],
+    [
+     "2026-11-13",
+     "repository built (core c5)"
     ]
    ],
    "source": null
