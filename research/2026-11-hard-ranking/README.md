@@ -48,7 +48,7 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 5. [A002827](https://oeis.org/A002827) — Whether the sequence lies within the Zumkeller numbers; not found in either set; 48 incoming references.
 6. [A007850](https://oeis.org/A007850) — Arithmetic-derivative characterization of Giuga numbers; not found in either set; 55 incoming references.
 7. [A003459](https://oeis.org/A003459) — Eventual equality with a shifted sequence; not found in either set; 51 incoming references.
-8. [A111441](https://oeis.org/A111441) — Absence of terms congruent to 3 or 9 modulo 12; not found in either set; 97 incoming references.
+8. [A111441](https://oeis.org/A111441) — Absence of terms congruent to 3 or 9 modulo 12; not found in either set; 97 incoming references. **Resolved (12 Nov 2026 check):** already proved in the entry (Munch-Andersen, 13 Dec 2020; generalised by Dyson, 9 Jan 2021); a false positive of the screen, see [the task and answer](../../tasks/2026-11-12-A111441-mod12/TASK.md).
 9. [A007540](https://oeis.org/A007540) — A prime power-sum characterization; not found in either set; 38 incoming references.
 10. [A011541](https://oeis.org/A011541) — Growth of the number of distinct prime factors; not found in either set; 60 incoming references.
 11. [A006794](https://oeis.org/A006794) — A bound for the prime preceding a prime p# − 1; not found in either set; 27 incoming references.

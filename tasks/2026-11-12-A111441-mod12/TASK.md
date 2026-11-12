@@ -46,6 +46,7 @@ Sources, read all of them:
 
 ## Rules
 
+- Answer in English.
 - Keep each claim's status explicit: proved, computed (with range), or conjectured.
 - Cite, do not paraphrase into novelty. Material already in the entry is credited to its authors.
 - No bulk submissions to the OEIS and no edits there: this task only produces a report.
