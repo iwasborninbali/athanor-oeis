@@ -1,4 +1,4 @@
-# OEIS submission queue (as of 12 Nov 2026, 23:10 WITA)
+# OEIS submission queue (as of 12 Nov 2026, 23:40 WITA)
 
 At most three open drafts at a time (OEIS limit). Submitted through `oeisb` one at a time, in this order.
 Comment text (%C) only in Alex's own words; otherwise link-only edits (OEIS AI policy).
@@ -7,11 +7,11 @@ Comment text (%C) only in Alex's own words; otherwise link-only edits (OEIS AI p
 
 | # | Entry | What | State |
 |---|---|---|---|
-| 1 | A097160 | a(7)-a(12) = 4481 … 324673 (Weil cutoff + two full scans) | draft #29 saved; held for the Buell-Hudson (1984) check |
-| 2 | A398172 | a(9), a(10) | proposed Nov 12 |
-| 3 | A398184 | a(9), a(10) | proposed Nov 12 |
-| 4 | A398580 | rows n = 9, 10 (b-file, terms 1..120; row 8 credit to Sean A. Irvine kept) | next free slot |
-| 5 | A398184 | supporting file "maximal subsets by size" n = 1..7 -> 1..10 | optional, after #3 |
+| 1 | A097160 | a(7)-a(12) = 4481 … 324673 (Weil cutoff + two full scans) | proposed Nov 12 (Buell-Hudson 1984 cited; a(7)-a(8) reinstated, a(9)-a(12) new) |
+| 2 | A398172 | a(9), a(10) | **approved Nov 12** |
+| 3 | A398184 | a(9), a(10) | **approved Nov 12** |
+| 4 | A398580 | rows n = 9, 10 (b-file, terms 1..120; row 8 credit to Sean A. Irvine kept) | proposed Nov 12 |
+| 5 | A398184 | supporting file "maximal subsets by size" n = 1..7 -> 1..10 | proposed Nov 12 (a398184_1.txt replaces the n = 1..7 link) |
 
 ## 2. New results (proof file uploaded or linked; link-only unless Alex writes a comment)
 
