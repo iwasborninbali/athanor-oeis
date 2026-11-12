@@ -45,7 +45,7 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 2. [A000668](https://oeis.org/A000668) — Uniqueness of 31 in a stated divisor-sum condition; not found in either set; 662 incoming references.
 3. [A007097](https://oeis.org/A007097) — Asymptotic product of logarithms of the terms; not found in either set; 286 incoming references.
 4. [A000170](https://oeis.org/A000170) — Strong asymptotic estimate for the terms; the weak exponential rate is established in the entry; not found in either set; 91 incoming references.
-5. [A002827](https://oeis.org/A002827) — Whether the sequence lies within the Zumkeller numbers; not found in either set; 48 incoming references.
+5. [A002827](https://oeis.org/A002827) — Whether the sequence lies within the Zumkeller numbers; not found in either set; 48 incoming references. **Proved by Mella (Zenodo 10.5281/zenodo.24088940, 9 Nov 2026); our independent proof is not new**, see [task](../../tasks/2026-11-12-A002827-unitary-perfect-zumkeller/answers/2026-11-12-chatgpt.md).
 6. [A007850](https://oeis.org/A007850) — Arithmetic-derivative characterization of Giuga numbers; not found in either set; 55 incoming references.
 7. [A003459](https://oeis.org/A003459) — Eventual equality with a shifted sequence; not found in either set; 51 incoming references.
 8. [A111441](https://oeis.org/A111441) — Absence of terms congruent to 3 or 9 modulo 12; not found in either set; 97 incoming references. **Resolved (12 Nov 2026 check):** already proved in the entry (Munch-Andersen, 13 Dec 2020; generalised by Dyson, 9 Jan 2021); a false positive of the screen, see [the task and answer](../../tasks/2026-11-12-A111441-mod12/TASK.md).
@@ -54,11 +54,11 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 11. [A006794](https://oeis.org/A006794) — A bound for the prime preceding a prime p# − 1; not found in either set; 27 incoming references.
 12. [A005234](https://oeis.org/A005234) — A bound for the prime following a prime p# + 1; not found in either set; 23 incoming references.
 13. [A048211](https://oeis.org/A048211) — Conjectured limiting ratio around 2.54; not found in either set; 29 incoming references.
-14. [A092506](https://oeis.org/A092506) — Completeness of listed solutions to a totient equation; not found in either set; 49 incoming references.
+14. [A092506](https://oeis.org/A092506) — Completeness of listed solutions to a totient equation; not found in either set; 49 incoming references. **Proved (12 Nov 2026 check, elementary; OEIS comment pending)**, see [task](../../tasks/2026-11-12-A092506-totient-equation/answers/2026-11-12-chatgpt.md).
 15. [A051783](https://oeis.org/A051783) — Primality characterization for 3^k + 2; not found in either set; 50 incoming references.
 16. [A191363](https://oeis.org/A191363) — Whether 3 is the only odd term; not found in either set; 41 incoming references.
 17. [A072567](https://oeis.org/A072567) — A symmetric-matrix comparison for the maximum number of ones; not found in either set; 16 incoming references.
-18. [A075245](https://oeis.org/A075245) — A proposed formula with specified exceptional indices; not found in either set; 17 incoming references.
+18. [A075245](https://oeis.org/A075245) — A proposed formula with specified exceptional indices; not found in either set; 17 incoming references. **Refuted (12 Nov 2026 check): fails at n = 409, per the entry's own b-file; OEIS comment pending**, see [task](../../tasks/2026-11-12-A075245-egyptian-floor-formula/answers/2026-11-12-chatgpt.md).
 19. [A064591](https://oeis.org/A064591) — A characterization using reciprocal sums over divisors; not found in either set; 26 incoming references.
 20. [A058129](https://oeis.org/A058129) — An asymptotic relation to A027851; not found in either set; 16 incoming references.
 21. [A059442](https://oeis.org/A059442) — The fence conjecture for the stated Ramsey bound; not found in either set; 7 incoming references.
