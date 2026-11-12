@@ -322,16 +322,20 @@
    "kind": "new-sequence",
    "title": "minimum edges of a bipancyclic graph on 2n vertices, n = 2..32",
    "claim": "4, 7, 9, 12, 14, 16, 19, 21, 23, 25, 27, 29, 32, ..., 69; corrects e(16) of Wallis (2017)",
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "own program (bpc.c): exhaustive chord search agrees for N = 4..48; all 31 witnesses checked; 4 chords give at most 29 cycles (census), so N >= 62 needs 5 chords; N = 50..60 running on the VM",
+   "guide_check": "own program (bpc.c): exhaustive search N = 4..48, 4-chord exclusion N = 50..60 (VM), cycle census for N = 62, 64, all 31 witnesses: every term confirmed",
    "prior_art": "Wallis, JCMCC 102 (2017), values through N = 44 with an error at 16; George-Khodkar-Wallis 2016 chapter unread",
-   "next": "guide's recount N = 50..64 (VM, running); review of the chord reduction; guide: write %N",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "repository built (core c1)"
+    ],
+    [
+     "2026-11-13",
+     "verified: every term N = 4..64 confirmed by the guide's own program"
     ]
    ],
    "source": "athanor-combinatorics bipancyclic/"
@@ -606,7 +610,7 @@
    "certificate": "complete",
    "guide_check": "own program (bsep.c, 2-factor method, no cycle enumeration) agrees for 8..46 vertices; graph counts equal A007083",
    "prior_art": "Alt, Payne, Schmidt and Wood (2016), Theorem 4: graphs where every Hamiltonian cycle has at least k faces of each colour on each side (the weaker one-class property S1 fails); the counts by order are not in the OEIS",
-   "next": "extend to 48, 50, 52 vertices (guide on the VM, queued) and by a ChatGPT agent (verify-barnette-separation, running), also for the weaker property S1; then choose S2, S1 or both",
+   "next": "ChatGPT agent (own program): 48: 75, 50: 1032, 52 in progress; property S1 never fails through 50 (so S2 is the sequence); guide VM recount 48-52 running",
    "owner": "guide",
    "history": [
     [
