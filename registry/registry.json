@@ -55,12 +55,12 @@
    "kind": "link",
    "title": "replace the no3-results link by the repository link",
    "claim": null,
-   "state": "proposed",
+   "state": "reviewed",
    "certificate": "complete",
    "guide_check": "link target checked by the guide",
    "prior_art": null,
-   "next": "wait for editors; answer notes by fixing the entry",
-   "owner": "guide",
+   "next": "wait for approval",
+   "owner": "editors",
    "history": [
     [
      "2026-11-13",
@@ -69,6 +69,10 @@
     [
      "2026-11-13",
      "submitted: no3-results link replaced by oeis-A398172"
+    ],
+    [
+     "2026-11-13",
+     "reviewed (edit #39, Andrew Howroyd, no notes)"
     ]
    ],
    "source": null
