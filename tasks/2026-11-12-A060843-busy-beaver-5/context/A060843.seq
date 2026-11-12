@@ -1,0 +1,74 @@
+%I A060843 #143 Nov 01 2026 23:04:45
+%S A060843 1,6,21,107,47176870
+%N A060843 Busy Beaver problem: a(n) is the maximal number of steps that an n-state Turing machine can make on an initially blank tape before eventually halting.
+%C A060843 "In 1965 Tibor Rado, together with Shen Lin, proved that a(3) is 21. (...) Next, in 1983, Allan Brady proved that a(4) is 107. (...) Then in 1989 Heiner Marxen and Jürgen Buntrock discovered that a(5) is at least 47176870. (...) As for a(6), Marxen and Buntrock set another record in 1997 by proving that it is at least 8690333381690951." [Based on Aaronson's web page.]
+%C A060843 The function Sigma(n) = Sigma(n, 2) (A028444) denotes the maximal number of tape marks (1's) that a Turing Machine with n internal states (plus the Halt state), 2 symbols, and a two-way infinite tape can write on an initially blank tape (all 0's) and then halt. The function a(n) (the present sequence) denotes the maximal number of steps S(n) = S(n, 2) (thus shifts, since direction NONE is excluded) that such a machine can make (not necessarily the same Turing machine producing a maximum number of 1s and need not even produce many tape marks).
+%C A060843 Given that 5-state 2-symbol halting Turing machines can compute Collatz-like congruential functions (see references), it may be very hard to find the next term.
+%C A060843 The sequence grows faster than any computable function of n and so is noncomputable.
+%C A060843 From _Daniel Forgues_, Jun 05-06 2011: (Start)
+%C A060843 A more precise definition might be as follows:
+%C A060843 Busy Beaver Problem: a(n) is the maximal number of steps that an n-state, 2-symbol, d+ in {LEFT, RIGHT}, 5-tuple (q, s, q+, s+, d+) Turing machine can make on an initially blank tape and then halt.
+%C A060843 Further comments:
+%C A060843 H in H_(n, k) is a halting* Turing machine with n states and k symbols;
+%C A060843 * (on a blank tape (all 0's) as input)
+%C A060843 States q, q+ in set Q_n of n distinct states (plus the Halt state);
+%C A060843 Symbols s, s+ in set S_k of k distinct symbols (0 as the blank symbol);
+%C A060843 Shift direction d+ in {LEFT, RIGHT} (NONE is excluded here);
+%C A060843 sigma(H) is the number of non-blank symbols left on the tape by H;
+%C A060843 s(H) is the number of steps (or shifts in our case) taken by H;
+%C A060843 Sigma(n, k) = max {sigma(H) : H is a halting Turing machine with n states and k symbols}
+%C A060843 S(n, k) = max {s(H) : H is a halting Turing machine with n states and k symbols}
+%C A060843 a(n) is S(n) = S(n, 2) since a 2-symbol BB-class Turing machine is assumed.
+%C A060843 For all n, S(n, k) >= Sigma(n, k), k >= 2. (End)
+%C A060843 a(6) > 10^^15, a tower of 10's of height 15 [Pavel Kropitz] - see Shawn Ligocki's blog. - _N. J. A. Sloane_, Jun 22 2022
+%C A060843 It is conjectured that a(5) = 47176870 (Conjecture 10 of the Scott Aaronson link "The busy beaver frontier"). - _Jianing Song_, Feb 21 2024
+%C A060843 On July 02, 2024 cosmo (Tristan Stérin) on behalf of the Busy Beaver Challenge group announced: "We have proved 'BB(5) = 47,176,870'". - _Peter Luschny_, Jul 02 2024
+%C A060843 The next term is much too large to include in the OEIS or even to conceive. The BBchallenge has found this month (cf. Scott Aaronson link from June 2025) that a(6) > 2^^^5 >> 10^^(10^7) where the repeated ^ stands for Knuth's arrow notation; 10^^(10^7) (tetration) means the power tower 10^(10^(...)) with 10^7 nested "^10" in the exponent, and ^^^ means pentation which is repeated tetration (cf. Wikipedia). - _M. F. Hasler_, Jun 30 2025
+%C A060843 It is known that a(432) is independent of ZFC; see the bbchallenge Wiki link below. - _Jianing Song_, Jul 08 2026
+%C A060843 More strongly, a(215) is known to be independent of ZF. The earliest value which cannot be proven with ZF is between a(6) and a(215) inclusive. - _Eric Fox_, Nov 01 2026
+%D A060843 A. H. Brady, The busy beaver game and the meaning of life, in Herken, R. (Ed) The Universal Turing Machine: A Half-Century Survey, pp. 259-277, Oxford Univ Press 1988. Reprinted by Springer-Verlag, 1995 (see pages 237-254).
+%D A060843 J. C. Lagarias, ed., The Ultimate Challenge: The 3x+1 Problem, Amer. Math. Soc., 2010; see p. 33.
+%D A060843 Yu. V. Rogozhin, Seven universal Turing machines (Russian), abstract, Fifth All-Union Conference on Math. Logic, Akad. Nauk. SSSR Sibirsk. Otdel., Inst. Mat., Novosibirsk, 1979, p. 127.
+%D A060843 Yu. V. Rogozhin, Seven universal Turing machines (Russian), Systems and Theoretical Programming, Mat. Issled. no. 69, Akademiya Nauk Moldavskoi SSSR, Kishinev, 1982, pp. 76-90.
+%D A060843 Jeffrey Shallit, A second course in formal languages and automata theory. Cambridge University Press, 2008. See Fig. 6.2, p. 185.
+%H A060843 Scott Aaronson, <a href="https://www.scottaaronson.com/writings/bignumbers.html">Who Can Name the Bigger Number?</a>
+%H A060843 Scott Aaronson, <a href="https://www.scottaaronson.com/papers/bb.pdf">The busy beaver frontier</a>, ACM SIGACT News 51.3 (2020): 32-54.
+%H A060843 Scott Aaronson, <a href="https://scottaaronson.blog/?p=8972">BusyBeaver(6) is really quite large</a>, personal blog Shtetl-Optimized, June 28, 2025.
+%H A060843 bbchallenge Wiki, <a href="https://wiki.bbchallenge.org/wiki/Logical_independence">Logical independence</a>.
+%H A060843 A. H. Brady, <a href="https://doi.org/10.1090/S0025-5718-1983-0689479-6">The determination of Rado's noncomputable function Sigma(k) for four-state Turing machines</a>, Math. Comp. 40 #62 (1983) 647-665.
+%H A060843 Ben Brubaker, <a href="https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/">With Fifth Busy Beaver, Researchers Approach Computation’s Limits</a>, Quanta Magazine (2024).
+%H A060843 Busy Beaver Challenge, <a href="https://discuss.bbchallenge.org/t/july-2nd-2024-we-have-proved-bb-5-47-176-870/237">We have proved "BB(5) = 47,176,870"</a>, July 02, 2024.
+%H A060843 Busy Beaver Challenge Wiki, <a href="https://wiki.bbchallenge.org/wiki/Champions">Current lower bounds on higher values</a>
+%H A060843 Bill Dubuque, <a href="https://groups.google.com/g/comp.theory/c/Hr6Y2Rscoi0/m/QSLBK-46xLgJ">Re: Halting is weak</a>
+%H A060843 A. Gravell and U. Ultes-Nitsche, <a href="http://www.ecs.soton.ac.uk/~uun/CM219/HTML/sld169.htm">BB(n) Grows Faster Than Any Computable Function</a> [dead link]
+%H A060843 Maja Kądziołka, <a href="https://github.com/ccz181078/Coq-BB5">Coq-BB5</a> (proof that a(5) = 47176870)
+%H A060843 Shawn Ligocki, <a href="https://www.sligocki.com//2022/06/21/bb-6-2-t15.html">BB(6,2) > 10^^15</a>, Jun 21 2022.
+%H A060843 Shen Lin and T. Rado, <a href="https://doi.org/10.1145/321264.321270">Computer Studies of Turing Machine Problems</a>, J. ACM 12 (1965), 196-212.
+%H A060843 Rona Machlin (nee Kopp) and Quentin F. Stout, <a href="https://doi.org/10.1016/0167-2789(90)90068-Z">The Complex Behavior of Simple Machines</a>, Physica D 42 (1990) 85-98.
+%H A060843 Heiner Marxen and Jürgen Buntrock, <a href="https://turbotm.de/~heiner/BB/mabu90.html">Attacking the Busy Beaver 5</a>, Bulletin of the EATCS, Number 40, February 1990, pp. 247-251. (See Table 1.)
+%H A060843 Pascal Michel, <a href="https://doi.org/10.1007/BF01409968">Busy beaver competition and Collatz-like problems</a>, Arch. Math. Logic (1993) 32:351-367.
+%H A060843 Pascal Michel, <a href="https://bbchallenge.org/~pascal.michel/ha.html">Historical survey of Busy Beavers</a>, 2011.
+%H A060843 Pascal Michel, <a href="https://bbchallenge.org/~pascal.michel/beh.html">Behavior of busy beavers</a>, 2010.
+%H A060843 Pascal Michel, <a href="https://bbchallenge.org/~pascal.michel/bbc.html">The Busy Beaver Competitions</a>, 2010.
+%H A060843 Pascal Michel, <a href="https://arxiv.org/abs/0906.3749">The Busy Beaver Competition: a historical survey</a>, arXiv, 2010.
+%H A060843 John Pavlus, <a href="https://www.quantamagazine.org/the-busy-beaver-game-illuminates-the-fundamental-limits-of-math-20201210/">How the Slowest Computer Programs Illuminate Math's Fundamental Limits</a>, Quanta Magazine, Dec 10 2020.
+%H A060843 T. Rado, <a href="https://doi.org/10.1002/j.1538-7305.1962.tb00480.x">On Non-Computable Functions</a>, Bell System Technical J. 41 (1962), 877-884.
+%H A060843 Raphael M. Robinson, <a href="https://doi.org/10.1142/S0129167X91000302">Minsky's small universal Turing machine</a>, Int'l Jnl. Math, 2 #5 (1991) 551-562.
+%H A060843 Claude E. Shannon, <a href="https://doi.org/10.1515/9781400882618-007">A universal Turing machine with two internal states</a>, Automata Studies, Ann. of Math. Stud. 34 (1956) 157-165.
+%H A060843 Michael Somos, <a href="https://grail.eecs.csuohio.edu/~somos/bb.html">Busy Beaver Turing Machine</a>
+%H A060843 Michael Somos, <a href="https://grail.eecs.csuohio.edu/~somos/busy.html">Busy Beaver</a>
+%H A060843 Q. F. Stout, <a href="https://web.eecs.umich.edu/~qstout/abs/busyb.html">The Complex Behavior of Simple Machines</a>
+%H A060843 <a href="https://bbchallenge.org/story">The Busy Beaver Challenge</a>
+%H A060843 Up and Atom, <a href="https://www.youtube.com/watch?v=AKiA7JBgJdQ">Amateurs Just Solved a 30-Year-Old Math Problem</a>, YouTube video, 2025.
+%H A060843 Eric Weisstein's World of Mathematics, <a href="https://mathworld.wolfram.com/BusyBeaver.html">Busy Beaver</a>
+%H A060843 Wikipedia, <a href="https://en.wikipedia.org/wiki/Busy_beaver">Busy beaver</a>
+%H A060843 Wikipedia, <a href="https://en.wikipedia.org/wiki/Pentation">Pentation</a>
+%H A060843 <a href="/index/Br#beaver">Index entries for sequences related to Busy Beaver problem</a>
+%Y A060843 Cf. A028444, A362199.
+%K A060843 hard,nice,nonn,more,changed
+%O A060843 1,2
+%A A060843 _Jud McCranie_ and _N. J. A. Sloane_, May 02 2001
+%E A060843 Additional references from Bill Dubuque (wgd(AT)martigny.ai.mit.edu)
+%E A060843 Edited by _N. J. A. Sloane_, Aug 30 2011
+%E A060843 Additional links from _Robert C. Lyons_, Jun 22 2022
+%E A060843 a(5) added by _Charles R Greathouse IV_, Jul 02 2024
