@@ -63,7 +63,35 @@ Nothing to submit: entries already settled in their own text (A060843, A111441, 
 A242533, A003192, A129924, A002106, A002966, A194091), A002827 (Mella's result, his to add), A186783 (agent's citation was
 wrong), and the open conjectures (partial results only).
 
-## 5. Candidate new sequences found by the September-November archaeology (need definition, novelty search, review)
+## 5. Found by the September-November archaeology (13 Nov 2026)
+
+Method: the commit titles since 1 Aug 2026 in 16 research repositories (4,334, plus 970 re-read) were read in full by ChatGPT
+threads; Codex cores resolved the flagged commits; the guide checked every witness below with his own code.
+Evidence: `~/athanor-foundation/instruments/hammer/core/workspace/oeis-audit-2026-11/`.
+
+### 5.1 Edits to existing entries
+
+| # | Entry | What | State |
+|---|---|---|---|
+| 27 | A272651 | lower bounds above the Hall-Jackson-Sudbery-Wild 3(p-1) for n = 2p, 106 <= n <= 802 (e.g. 163 at n = 106, 313 at n = 202, 1226 at n = 802); 17 witnesses from `moves` (Aug 2026), all checked by the guide | literature check running; then a repository oeis-A272651 and a link |
+
+### 5.2 Candidate new sequences (need Alex's decision: the OEIS forbids bulk or serial AI-generated submissions)
+
+| # | Candidate | Terms | Evidence and status |
+|---|---|---|---|
+| N1 | Bipancyclic graphs: minimum number of edges minus N for a simple bipartite graph on N vertices with every even cycle length 4..N (even N) | e(4..64 even) = 0,1,1,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5 | exhaustive exclusions with certificates, independent checks; corrects e(16) in the cited source; no OEIS match (athanor-combinatorics/bipancyclic) |
+| N2 | Least-visited-neighbor walk on connected subcubic graphs: worst number of moves before first coverage | 0,1,3,7,11,17,27,34,45,57,74,90 (n = 1..12) | complete enumeration, independent audit (athanor-learning-theory/lfv-exploration) |
+| N3 | Same walk: largest visit count of a vertex before first coverage | 0,1,2,3,5,7,8,8,14,16,22,22 | as N2 |
+| N4 | Maximum number of pairwise cell-disjoint Costas arrays of order n | D(9..13) = 8,10,10,12,11 | D(13) = 11 new (witness + exclusion); initial terms to assemble (athanor-combinatorics/costas-d13) |
+| N5 | Maximum no-four-coplanar configurations in the n X n X n grid: number of them (labelled) and up to cube symmetry | 16, 10960, 1768 (n = 3,4,5); classes 1, 232, 38 | exhaustive, independent shard sums (saturation, Aug 2026); n = 1, 2 and the n = 5 completeness to recheck |
+| N6 | Minimum number of Hamiltonian cycles among 3-connected cubic bipartite planar graphs on n vertices | 6,8,12,10,16,12,20,14,24,16,28,18,32,20,36,22,40,24,44 (n = 8,12,...,46) | plantri census + exhaustive count (barnette); independent recount needed |
+| N7 | Maximal no-three-in-line subsets of the n X n grid by size (triangle) | rows through n = 10 | in oeis-A398184 (a398184_1.txt) |
+| N8 | No-three-in-line subsets (all; maximal) up to the symmetries of the square | fixed-set profiles for n = 8, 9 | Burnside data in workspace; prefix not assembled |
+
+Not OEIS items: the q-covering bound C_2(6,3,2) <= 104, the Hai-Walsh classification, the Erdos-Szekeres (es7) experiments, the 4D bounds
+(provisional), the first exact-rot2 no-three-in-line configurations at n = 36, 37, 39 (reported to Flammenkamp; A037187 lists terms only to n = 25).
+
+## 6. Earlier candidate list (superseded by 5.2)
 
 - Maximal no-three-in-line subsets of the n X n grid by size, as a triangle M(n,k) (rows through n = 10 exact; data in oeis-A398184).
 - No-three-in-line subsets (all, and maximal) counted modulo the symmetries of the square (fixed-set profiles exist for n = 8, 9).
