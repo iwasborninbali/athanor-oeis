@@ -13,7 +13,12 @@ Comment text (%C) only in Alex's own words; otherwise link-only edits (OEIS AI p
 | 4 | A398580 | rows n = 9, 10 (b-file, terms 1..120; row 8 credit to Sean A. Irvine kept) | proposed Nov 12 (Michel Marcus split an example line) |
 | 5 | A398184 | supporting file "maximal subsets by size" n = 1..7 -> 1..10 | proposed Nov 12 (a398184_1.txt replaces the n = 1..7 link) |
 
-## 2. New results (proof file uploaded or linked; link-only unless Alex writes a comment)
+| 5a | A398172 | replace the no3-results link by [oeis-A398172](https://github.com/iwasborninbali/oeis-A398172) | next free slot |
+
+Rule (Alex, 13 Nov 2026): one sequence, one public repository `oeis-ANNNNNN`; the entry links only that repository.
+A097160, A398184 and A398580 drafts were switched to their own repositories before approval.
+
+## 2. New results (each gets its own repository `oeis-ANNNNNN` with the proof; link-only unless Alex writes a comment)
 
 | # | Entry | What |
 |---|---|---|

@@ -37,6 +37,12 @@ See [directions.md](directions.md) for the reasoning, the competitive landscape 
 
 ## Submitting to the OEIS
 
+**One sequence, one public repository.** Everything behind our contribution to a sequence (programs, certificates,
+data, proofs) lives in its own public repository `iwasborninbali/oeis-ANNNNNN`, and the entry links only that repository
+(OEIS editors asked us not to send readers to mixed collections or to duplicate archives). Current ones:
+[oeis-A097160](https://github.com/iwasborninbali/oeis-A097160), [oeis-A398172](https://github.com/iwasborninbali/oeis-A398172),
+[oeis-A398184](https://github.com/iwasborninbali/oeis-A398184), [oeis-A398580](https://github.com/iwasborninbali/oeis-A398580).
+
 Edits are submitted from Aleksei Kudriashov's OEIS account, one reviewed edit at a time, following the queue above.
 The guide prepares and submits them with a local browser bridge (`oeisb`, a separate private tool): entry text through the
 internal edit form, files (b-files, supporting files) through the regular edit form, then "ready for review".
