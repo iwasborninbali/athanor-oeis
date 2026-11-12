@@ -27,9 +27,11 @@ See [directions.md](directions.md) for the reasoning, the competitive landscape 
 
 | Path | What |
 |---|---|
+| [RULES.md](RULES.md) | **Rules of our OEIS work**: the OEIS is the source of truth; no verification certificate, no submission; one repository per sequence; naming; the registry |
+| [REGISTRY.md](REGISTRY.md) | **Registry** of every contribution, open draft, candidate and finding (generated from `registry/registry.json` by `registry/registry.py`) |
 | [directions.md](directions.md) | The three directions, strategy, landscape (AI labs, benchmarks), ideas queue |
 | [contributions/](contributions/README.md) | Our OEIS sequences and pending edits, with links to certificates |
-| [contributions/queue.md](contributions/queue.md) | The submission queue: every planned edit, in order, with its state |
+| [contributions/queue.md](contributions/queue.md) | Former submission queue (snapshot of 13 Nov 2026; the registry replaces it) |
 | [research/2026-11-activity/](research/2026-11-activity/summary.md) | Monthly OEIS activity 2024-2026, overall and for `hard` |
 | [research/2026-11-hard-2026/](research/2026-11-hard-2026/report.md) | Who and what is behind the 2026 rise in `hard` activity; where AI is visible |
 | [research/2026-11-hard-ranking/](research/2026-11-hard-ranking/README.md) | Interest and opportunity metrics for all 10,080 `hard` sequences; three candidate lists |
@@ -37,9 +39,12 @@ See [directions.md](directions.md) for the reasoning, the competitive landscape 
 
 ## Submitting to the OEIS
 
+The rules are in [RULES.md](RULES.md) and the state of everything is in [REGISTRY.md](REGISTRY.md).
+
 **One sequence, one public repository.** Everything behind our contribution to a sequence (programs, certificates,
 data, proofs) lives in its own public repository `iwasborninbali/oeis-ANNNNNN`, and the entry links only that repository
-(OEIS editors asked us not to send readers to mixed collections or to duplicate archives). Current ones:
+(OEIS editors asked us not to send readers to mixed collections or to duplicate archives). Before submission the name
+shows it: `oeis-A______-<slug>` for a new sequence (no A-number yet), `oeis-ANNNNNN-unsubmitted` for an edit. Submitted ones:
 [oeis-A097160](https://github.com/iwasborninbali/oeis-A097160), [oeis-A398172](https://github.com/iwasborninbali/oeis-A398172),
 [oeis-A398184](https://github.com/iwasborninbali/oeis-A398184), [oeis-A398580](https://github.com/iwasborninbali/oeis-A398580).
 

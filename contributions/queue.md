@@ -1,3 +1,6 @@
+> **Superseded on 13 Nov 2026 by the registry** ([REGISTRY.md](../REGISTRY.md), source `registry/registry.json`; rules in
+> [RULES.md](../RULES.md)). This file is kept as a snapshot of the queue as it stood; it is no longer updated.
+
 # OEIS submission queue (as of 12 Nov 2026, 23:40 WITA)
 
 At most three open drafts at a time (OEIS limit). Submitted through `oeisb` one at a time, in this order.

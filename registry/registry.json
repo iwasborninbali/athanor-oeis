@@ -1,0 +1,1235 @@
+{
+ "updated": "2026-11-13",
+ "rules": "../RULES.md",
+ "records": [
+  {
+   "id": "A097160-terms",
+   "anum": "A097160",
+   "repo": "oeis-A097160",
+   "kind": "terms",
+   "title": "a(7)-a(12) of the greatest prime with exactly n consecutive quadratic residues",
+   "claim": "a(7)..a(12) = 4481, 9857, 25793, 60961, 132113, 324673",
+   "state": "proposed",
+   "certificate": "complete",
+   "guide_check": "second full scan for a(12) run by the guide on the VM (12 Nov 2026)",
+   "prior_art": "Buell and Hudson (1984) had the search range covering a(7)-a(8); credited in the entry",
+   "next": "wait for editors; answer notes by fixing the entry",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "proposed (draft); notes fixed and resubmitted"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A398172-terms",
+   "anum": "A398172",
+   "repo": "oeis-A398172",
+   "kind": "terms",
+   "title": "a(9), a(10): subsets of the n X n grid with no three collinear",
+   "claim": "a(9) = 167892639418, a(10) = 7287023194031",
+   "state": "approved",
+   "certificate": "complete",
+   "guide_check": "two independently written exhaustive programs agree; receipts checked by the guide (Nov 2026)",
+   "prior_art": null,
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-12",
+     "approved"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A398172-link",
+   "anum": "A398172",
+   "repo": "oeis-A398172",
+   "kind": "link",
+   "title": "replace the no3-results link by the repository link",
+   "claim": null,
+   "state": "queued",
+   "certificate": "complete",
+   "guide_check": "link target checked by the guide",
+   "prior_art": null,
+   "next": "submit when a draft slot is free",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "queued"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A398184-terms",
+   "anum": "A398184",
+   "repo": "oeis-A398184",
+   "kind": "terms",
+   "title": "a(9), a(10): maximal no-three-in-line subsets",
+   "claim": "a(9) = 1861878186, a(10) = 56412888628",
+   "state": "approved",
+   "certificate": "complete",
+   "guide_check": "two independently written exhaustive programs agree; receipts checked by the guide (Nov 2026)",
+   "prior_art": null,
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-12",
+     "approved"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A398184-sizes",
+   "anum": "A398184",
+   "repo": "oeis-A398184",
+   "kind": "data",
+   "title": "supporting file: maximal subsets by size, n = 1..10",
+   "claim": null,
+   "state": "reviewed",
+   "certificate": "complete",
+   "guide_check": "same two programs, cell by cell",
+   "prior_art": null,
+   "next": "wait for approval",
+   "owner": "editors",
+   "history": [
+    [
+     "2026-11-12",
+     "proposed"
+    ],
+    [
+     "2026-11-13",
+     "reviewed (edit #72, Andrew Howroyd, no notes)"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A398580-rows",
+   "anum": "A398580",
+   "repo": "oeis-A398580",
+   "kind": "data",
+   "title": "b-file rows n = 9, 10 (terms 1..120)",
+   "claim": null,
+   "state": "reviewed",
+   "certificate": "complete",
+   "guide_check": "two independent programs agree cell by cell, 512/512 shards each for n = 10",
+   "prior_art": null,
+   "next": "wait for approval",
+   "owner": "editors",
+   "history": [
+    [
+     "2026-11-12",
+     "proposed"
+    ],
+    [
+     "2026-11-13",
+     "reviewed (edit #41, Andrew Howroyd, no notes)"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A399138-seq",
+   "anum": "A399138",
+   "repo": "oeis-A399138",
+   "kind": "new-sequence",
+   "title": "no three collinear in the n X n X n grid: a(1..6)",
+   "claim": "1, 8, 16, 28, 40, 64",
+   "state": "approved",
+   "certificate": "complete",
+   "guide_check": "witnesses rechecked with the guide's own checker (Nov 2026)",
+   "prior_art": null,
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-08-19",
+     "sequence created"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A399138-fix",
+   "anum": "A399138",
+   "repo": "oeis-A399138",
+   "kind": "correction",
+   "title": "delete our false comment on layer profiles; witness file n = 1..11 (a(9) >= 116, a(10) >= 138, a(11) >= 164)",
+   "claim": null,
+   "state": "queued",
+   "certificate": "complete",
+   "guide_check": "nonuniform 40-point n = 5 optimum and all witnesses checked with the guide's own code (no3d.py)",
+   "prior_art": null,
+   "next": "submit when a slot is free (plan in oeis-bridge work/A399138-plan.py); any replacement comment in Alex's words",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "prepared and queued"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A280537-a12",
+   "anum": "A280537",
+   "repo": "oeis-A280537",
+   "kind": "bounds",
+   "title": "a(12) >= 31 and a(n) <= 3n (comment of 23 Aug 2026)",
+   "claim": null,
+   "state": "approved",
+   "certificate": "complete",
+   "guide_check": "witness checked with the guide's own determinant checker (no4p.py)",
+   "prior_art": null,
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-08-23",
+     "approved"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A280537-bounds",
+   "anum": "A280537",
+   "repo": "oeis-A280537",
+   "kind": "bounds",
+   "title": "link to the repository; a(21) >= 47, a(22) >= 49, a(27) >= 56",
+   "claim": null,
+   "state": "queued",
+   "certificate": "complete",
+   "guide_check": "witnesses checked with the guide's own code (no4p.py)",
+   "prior_art": "improvements over the 2017 OEIS comment and Al Zimmermann's 2016 contest, per the repository note",
+   "next": "submit when a slot is free",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "queued"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A000755-a20",
+   "anum": "A000755",
+   "repo": "oeis-A000755",
+   "kind": "terms",
+   "title": "a(20) = 941580 from Flammenkamp's database, checked by orbit sums",
+   "claim": null,
+   "state": "approved",
+   "certificate": "complete",
+   "guide_check": "orbit sums recomputed (Nov 2026)",
+   "prior_art": "the configurations are Flammenkamp's; we contributed the count",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-08-23",
+     "approved"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A000755-link",
+   "anum": "A000755",
+   "repo": "oeis-A000755",
+   "kind": "link",
+   "title": "link to the repository (orbit-sum check of a(20))",
+   "claim": null,
+   "state": "queued",
+   "certificate": "complete",
+   "guide_check": "check script rerun by the guide (Nov 2026)",
+   "prior_art": null,
+   "next": "submit when a slot is free",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "queued"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A272651-bounds",
+   "anum": "A272651",
+   "repo": "oeis-A272651-unsubmitted",
+   "kind": "bounds",
+   "title": "sixteen explicit sets above 3(p-1) for n = 2p, 106 <= n <= 802",
+   "claim": "a(398) >= 616, a(502) >= 771, a(614) >= 948, a(802) >= 1226 are the largest verified sets we know; the rest are superseded",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "two own checkers on all 16 sets; 158 third-party sets checked",
+   "prior_art": "Zhang-Zhuang-Wang-Kaplan arXiv:2606.26399; kiro_conic on rStation (Oct 2026, coordinates verified); HJSW 1975",
+   "next": "decide whether a link to a table of verified lower bounds is worth submitting (mostly other people's sets for n <= 302)",
+   "owner": "Alex",
+   "history": [
+    [
+     "2026-08-30",
+     "sets found (moves, private)"
+    ],
+    [
+     "2026-11-13",
+     "literature check: superseded for n <= 302; repository built"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "N1-bipancyclic",
+   "anum": null,
+   "repo": "oeis-A______-bipancyclic-min-edges",
+   "kind": "new-sequence",
+   "title": "minimum edges of a bipancyclic graph on 2n vertices, n = 2..32",
+   "claim": "4, 7, 9, 12, 14, 16, 19, 21, 23, 25, 27, 29, 32, ..., 69; corrects e(16) of Wallis (2017)",
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "own program (bpc.c): exhaustive chord search agrees for N = 4..48; all 31 witnesses checked; 4 chords give at most 29 cycles (census), so N >= 62 needs 5 chords; N = 50..60 running on the VM",
+   "prior_art": "Wallis, JCMCC 102 (2017), values through N = 44 with an error at 16; George-Khodkar-Wallis 2016 chapter unread",
+   "next": "guide's recount N = 50..64 (VM, running); review of the chord reduction; Alex: name and definition",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c1)"
+    ]
+   ],
+   "source": "athanor-combinatorics bipancyclic/"
+  },
+  {
+   "id": "N4-costas",
+   "anum": null,
+   "repo": "oeis-A______-disjoint-costas-arrays",
+   "kind": "new-sequence",
+   "title": "maximum number of pairwise disjoint Costas arrays of order n",
+   "claim": "1, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 11 (n = 1..13); D(13) = 11 is ours",
+   "state": "candidate",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": "Dinitz-Ostergard-Stinson (2012) through n = 12; Frank-Dinitz (2015): 11 <= D(13) <= 12",
+   "next": "ChatGPT agent recount of D(13) (thread verify-costas-d13, running); written review of the symmetry argument",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c1)"
+    ]
+   ],
+   "source": "athanor-combinatorics costas-d13/; Zenodo 10.5281/zenodo.24140011"
+  },
+  {
+   "id": "LVN-cover-time-subcubic",
+   "anum": null,
+   "repo": "oeis-A______-lvn-walk-cover-time-subcubic",
+   "kind": "new-sequence",
+   "title": "least-visited-neighbour walk, worst first-cover time on connected subcubic graphs",
+   "claim": "0,1,3,7,11,17,27,34,45,57,74,90",
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "prior_art": "no OEIS match; census of the graphs is A243393",
+   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c2)"
+    ]
+   ],
+   "source": "athanor-learning-theory lfv-exploration/"
+  },
+  {
+   "id": "LVN-max-visits-subcubic",
+   "anum": null,
+   "repo": "oeis-A______-lvn-walk-max-visits-subcubic",
+   "kind": "new-sequence",
+   "title": "same walk, largest visit count before first cover",
+   "claim": "0,1,2,3,5,7,8,8,14,16,22,22",
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "prior_art": "no OEIS match; census of the graphs is A243393",
+   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c2)"
+    ]
+   ],
+   "source": "athanor-learning-theory lfv-exploration/"
+  },
+  {
+   "id": "LVN-cover-time-trees",
+   "anum": null,
+   "repo": "oeis-A______-lvn-walk-cover-time-trees",
+   "kind": "new-sequence",
+   "title": "same walk, worst first-cover time on subcubic trees",
+   "claim": "0,1,3,7,11,17,27,31,43,57,63,83",
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "prior_art": "no OEIS match; census of the graphs is A243393",
+   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c2)"
+    ]
+   ],
+   "source": "athanor-learning-theory lfv-exploration/"
+  },
+  {
+   "id": "LVN-cover-time-cubic",
+   "anum": null,
+   "repo": "oeis-A______-lvn-walk-cover-time-cubic",
+   "kind": "new-sequence",
+   "title": "same walk, worst first-cover time on cubic graphs (n = 4..12 even)",
+   "claim": "3,8,15,26,42",
+   "state": "candidate",
+   "certificate": "complete",
+   "guide_check": "own brute force (lvn_guide.py) agrees for n <= 8",
+   "prior_art": "no OEIS match; census of the graphs is A243393",
+   "next": "ChatGPT agent recount to n = 12 (thread verify-lvn-walk-n12, running); Alex: name and definition; five terms only",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c2)"
+    ]
+   ],
+   "source": "athanor-learning-theory lfv-exploration/"
+  },
+  {
+   "id": "N5-no4-count",
+   "anum": null,
+   "repo": "oeis-A______-no-four-coplanar-max-configurations",
+   "kind": "new-sequence",
+   "title": "number of maximum no-four-coplanar point sets in the n X n X n grid",
+   "claim": "1, 8, 16, 10960, 1768 (n = 1..5)",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "own count (no4count.c) agrees for n = 1..5, including 1768 at n = 5 and no 14-point set",
+   "prior_art": "class counts are A280538 (1, 1, 232, 38, 36); labelled counts not in the OEIS",
+   "next": "Alex: name and definition; possible extension to n = 6 (A280538 has 36 classes at n = 6)",
+   "owner": "Alex",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c3)"
+    ],
+    [
+     "2026-11-13",
+     "verified: guide confirmed n = 5 with his own program"
+    ]
+   ],
+   "source": "saturation (Aug 2026)"
+  },
+  {
+   "id": "N5-classes",
+   "anum": "A280538",
+   "repo": null,
+   "kind": "check",
+   "title": "maximum no-four-coplanar sets up to symmetry",
+   "claim": "1, 1, 232, 38",
+   "state": "not-for-oeis",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": "A280538",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "found to be A280538 already; our counts agree for n <= 4"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "N7-maximal-by-size",
+   "anum": null,
+   "repo": "oeis-A______-maximal-no-three-in-line-by-size",
+   "kind": "new-sequence",
+   "title": "triangle: maximal no-three-in-line subsets of the n X n grid by size",
+   "claim": "rows n = 1..10",
+   "state": "candidate",
+   "certificate": "partial",
+   "guide_check": "rows equal the A398184 supporting file the guide checked",
+   "prior_art": "A398184 supporting file (ours)",
+   "next": "editorial question: the table is already a supporting file of A398184 (rows 1..10 proposed); Alex decides whether a separate sequence is wanted",
+   "owner": "Alex",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c3)"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "N8-d4-all",
+   "anum": null,
+   "repo": "oeis-A______-no-three-in-line-subsets-up-to-symmetry",
+   "kind": "new-sequence",
+   "title": "no-three-in-line subsets of the n X n grid up to the symmetries of the square",
+   "claim": "2, 6, 46, 667, 14066, 451720, 12713128, 514304337, 20987026978 (n = 1..9)",
+   "state": "candidate",
+   "certificate": "partial",
+   "guide_check": "own direct canonical-form count (d4orb.c, no Burnside) agrees for n = 1..8; n = 9 running",
+   "prior_art": "labelled counts A398172 (ours); A000769 counts 2n-point solutions only",
+   "next": "guide: finish own n = 9 count (running); Alex: name and definition",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c3)"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "N8-d4-maximal",
+   "anum": null,
+   "repo": "oeis-A______-maximal-no-three-in-line-subsets-up-to-symmetry",
+   "kind": "new-sequence",
+   "title": "maximal no-three-in-line subsets up to the symmetries of the square",
+   "claim": "1, 1, 6, 56, 758, 14798, 306727, 8319524, 232764015 (n = 1..9)",
+   "state": "candidate",
+   "certificate": "partial",
+   "guide_check": "own direct canonical-form count (d4orb.c, no Burnside) agrees for n = 1..8; n = 9 running",
+   "prior_art": "labelled counts A398184 (ours)",
+   "next": "guide: finish own n = 9 count (running); Alex: name and definition",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "repository built (core c3)"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "N6-barnette-min-hc",
+   "anum": null,
+   "repo": null,
+   "kind": "new-sequence",
+   "title": "minimum number of Hamiltonian cycles of a Barnette graph on n vertices",
+   "claim": "6, 8, 12, 10, 16, 12, 20, 14, 24, 16, 28, 18, 32, 20, 36, 22, 40, 24, 44 (n = 8, 12, 14, ..., 46)",
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c4)",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "briefed to core c4"
+    ]
+   ],
+   "source": "barnette"
+  },
+  {
+   "id": "K09-barnette-defect",
+   "anum": null,
+   "repo": null,
+   "kind": "new-sequence",
+   "title": "Barnette graphs with positive colour-separation defect",
+   "claim": "0 through n = 38, then 2, 0, 8, 88 (n = 40..46)",
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c4); doubtful as a sequence (four nonzero terms)",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-13",
+     "briefed to core c4"
+    ]
+   ],
+   "source": "barnette"
+  },
+  {
+   "id": "A332101-result",
+   "anum": "A332101",
+   "repo": null,
+   "kind": "correction",
+   "title": "formula a(n) = A078607(n) + 2 fails at n = 777451915729368",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A092506-result",
+   "anum": "A092506",
+   "repo": null,
+   "kind": "proof",
+   "title": "Cloitre's conjecture proved (iff x = 2 or a Fermat prime)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A328151-result",
+   "anum": "A328151",
+   "repo": null,
+   "kind": "proof",
+   "title": "Schoenfield's identities proved (D(2m^2) = D(m^2))",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A167809-result",
+   "anum": "A167809",
+   "repo": null,
+   "kind": "proof",
+   "title": "a(n) >= Catalan(n) proved (Dyck-path injection)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A075245-result",
+   "anum": "A075245",
+   "repo": null,
+   "kind": "correction",
+   "title": "conjectured formula fails at n = 409 (10 failures up to 2000)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A007097-result",
+   "anum": "A007097",
+   "repo": null,
+   "kind": "correction",
+   "title": "conjecture of Mar 26 2015 false; corrected asymptotic",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A059442-result",
+   "anum": "A059442",
+   "repo": null,
+   "kind": "correction",
+   "title": "Fence conjecture fails at m = n = 74 (Erdos 1947)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A004137-result",
+   "anum": "A004137",
+   "repo": null,
+   "kind": "correction",
+   "title": "hypothesis of Oct 09 2011 false as worded (example in A193802)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A064591-result",
+   "anum": "A064591",
+   "repo": null,
+   "kind": "proof",
+   "title": "Lagneau's conjecture equivalent to Ligh-Wall plus no odd perfect numbers",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository being built (core c5); then guide's check",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks (athanor-oeis/tasks)"
+    ],
+    [
+     "2026-11-13",
+     "briefed to core c5"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A078607-pointer",
+   "anum": "A078607",
+   "repo": null,
+   "kind": "link",
+   "title": "pointer to the A332101 counterexample (Hasler's 'it appears' comment)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "partial",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "after A332101 is submitted",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found"
+    ]
+   ],
+   "source": null,
+   "see_repo": "oeis-A332101-unsubmitted"
+  },
+  {
+   "id": "A081978-correction",
+   "anum": "A081978",
+   "repo": null,
+   "kind": "correction",
+   "title": "third form should be (p^r+1)/2",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A011541-correction",
+   "anum": "A011541",
+   "repo": null,
+   "kind": "correction",
+   "title": "remark on Pavlov's conjecture vs the bound 101^3*a(6)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A000170-correction",
+   "anum": "A000170",
+   "repo": null,
+   "kind": "correction",
+   "title": "asymptotic constants 0.944 / 2.570, not 0.90 / 2.54 (Simkin)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A023194-correction",
+   "anum": "A023194",
+   "repo": null,
+   "kind": "correction",
+   "title": "the 'Proof' assumes the Goormaghtigh conjecture (check Grantham 2024)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A001419-reference",
+   "anum": "A001419",
+   "repo": null,
+   "kind": "reference",
+   "title": "Madras, Ann. Comb. 3 (1999)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A005432-reference",
+   "anum": "A005432",
+   "repo": null,
+   "kind": "reference",
+   "title": "Roney-Dougal and Tracey, arXiv:2503.05416",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A046747-reference",
+   "anum": "A046747",
+   "repo": null,
+   "kind": "reference",
+   "title": "Hu, Song and Wu, arXiv:2609.39463 (preprint)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A387098-reference",
+   "anum": "A387098",
+   "repo": null,
+   "kind": "reference",
+   "title": "Minevich et al., arXiv:2411.02251",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A007540-reference",
+   "anum": "A007540",
+   "repo": null,
+   "kind": "reference",
+   "title": "Lerch 1905 / Sondow 2014 (via A197632)",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A262181-reference",
+   "anum": "A262181",
+   "repo": null,
+   "kind": "reference",
+   "title": "Poonen and Rubinstein 1998, Lemma 2",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "A333650-reference",
+   "anum": "A333650",
+   "repo": null,
+   "kind": "reference",
+   "title": "cross-reference to Luschny's comment in A339494",
+   "claim": null,
+   "state": "idea",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": null,
+   "next": "repository to be built (core c6); the source must be read",
+   "owner": "guide",
+   "history": [
+    [
+     "2026-11-12",
+     "found in the conjecture checks"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-q-cover",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "binary q-covering design C_2(6,3,2) <= 104",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "an upper bound (interval 99..104), not a sequence term",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-hai-walsh",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "Hai-Walsh Diophantine classification",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "three fibres open; no well-defined sequence",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-es7",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "Erdos-Szekeres order types (es7)",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "experiments; no sequence with enough certain terms",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-4d-bounds",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "no-three-in-line in four dimensions",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "provisional bounds",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-rot2-n36-39",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "first exact-rot2 no-three-in-line configurations at n = 36, 37, 39",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "sent to Flammenkamp's database; A037187 lists terms only to n = 25",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-A243393-census",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "census of connected subcubic graphs",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "already A243393; independent recount only",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-A000769-endpoints",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "orbit counts of 2n-point sets at n = 8, 9",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "agree with A000769 (57, 51); check only",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-A008404-13",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "12828 Costas arrays of order 13",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "already in A008404; independent enumeration only",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  },
+  {
+   "id": "X-K11-K13",
+   "anum": null,
+   "repo": null,
+   "kind": "finding",
+   "title": "order types, Pascal partitions, decision stumps",
+   "claim": null,
+   "state": "not-for-oeis",
+   "certificate": "none",
+   "guide_check": null,
+   "prior_art": "not ready: no well-defined indexed sequence",
+   "next": null,
+   "owner": "-",
+   "history": [
+    [
+     "2026-11-13",
+     "triaged in the archaeology audit"
+    ]
+   ],
+   "source": null
+  }
+ ]
+}
