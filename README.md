@@ -28,6 +28,7 @@ See [directions.md](directions.md) for the reasoning, the competitive landscape 
 | [research/2026-11-activity/](research/2026-11-activity/summary.md) | Monthly OEIS activity 2024-2026, overall and for `hard` |
 | [research/2026-11-hard-2026/](research/2026-11-hard-2026/report.md) | Who and what is behind the 2026 rise in `hard` activity; where AI is visible |
 | [research/2026-11-hard-ranking/](research/2026-11-hard-ranking/README.md) | Interest and opportunity metrics for all 10,080 `hard` sequences; three candidate lists |
+| [tasks/](tasks/README.md) | Self-contained tasks for AI agents, one link each, with reviewed answers |
 
 ## Reproducing
 
