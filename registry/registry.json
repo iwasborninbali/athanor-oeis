@@ -276,7 +276,7 @@
    "certificate": "complete",
    "guide_check": "collinearity of all 118057 representatives and orbit sums checked by the guide; n = 20 part identical to the current database (all_known_solutions, 2026-10-28, n <= 78)",
    "prior_art": null,
-   "next": "submit when a slot is free",
+   "next": "submit when a slot is free (one %H line: the repository with the orbit-sum check of a(20)); low priority",
    "owner": "guide",
    "history": [
     [
@@ -322,7 +322,7 @@
    "certificate": "complete",
    "guide_check": "own program (bpc.c): exhaustive chord search agrees for N = 4..48; all 31 witnesses checked; 4 chords give at most 29 cycles (census), so N >= 62 needs 5 chords; N = 50..60 running on the VM",
    "prior_art": "Wallis, JCMCC 102 (2017), values through N = 44 with an error at 16; George-Khodkar-Wallis 2016 chapter unread",
-   "next": "guide's recount N = 50..64 (VM, running); review of the chord reduction; Alex: name and definition",
+   "next": "guide's recount N = 50..64 (VM, running); review of the chord reduction; guide: write %N",
    "owner": "guide",
    "history": [
     [
@@ -364,8 +364,8 @@
    "certificate": "complete",
    "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "Alex: name and definition (%N); then queue as a new sequence",
-   "owner": "Alex",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
@@ -389,8 +389,8 @@
    "certificate": "complete",
    "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "Alex: name and definition (%N); then queue as a new sequence",
-   "owner": "Alex",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
@@ -414,8 +414,8 @@
    "certificate": "complete",
    "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "Alex: name and definition (%N); then queue as a new sequence",
-   "owner": "Alex",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
@@ -439,8 +439,8 @@
    "certificate": "complete",
    "guide_check": "own brute force agrees for n <= 8; ChatGPT agent recount n <= 12 (verify-lvn-walk-n12) reviewed and rerun by the guide, identical",
    "prior_art": "no OEIS match; census of the graphs is A243393",
-   "next": "Alex: name and definition (%N); then queue as a new sequence (five terms only: maybe extend first)",
-   "owner": "Alex",
+   "next": "guide: write %N; queue as a new sequence (one at a time) (five terms only: maybe extend first)",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
@@ -464,8 +464,8 @@
    "certificate": "complete",
    "guide_check": "own count (no4count.c) agrees for n = 1..5, including 1768 at n = 5 and no 14-point set",
    "prior_art": "class counts are A280538 (1, 1, 232, 38, 36); labelled counts not in the OEIS",
-   "next": "Alex: name and definition; possible extension to n = 6 (A280538 has 36 classes at n = 6)",
-   "owner": "Alex",
+   "next": "guide: write %N; possible extension to n = 6 (A280538 has 36 classes at n = 6)",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
@@ -510,12 +510,16 @@
    "certificate": "partial",
    "guide_check": "rows equal the A398184 supporting file the guide checked",
    "prior_art": "A398184 supporting file (ours)",
-   "next": "editorial question: the table is already a supporting file of A398184 (rows 1..10 proposed); Alex decides whether a separate sequence is wanted",
-   "owner": "Alex",
+   "next": "decided (guide, 13 Nov 2026): yes, as the companion of A398580 (same grid, maximal subsets), rows n = 1..10, k = 1..2n; after the verified single sequences; write %N",
+   "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "repository built (core c3)"
+    ],
+    [
+     "2026-11-13",
+     "decided: worth a sequence (companion of A398580); low priority"
     ]
    ],
    "source": null
@@ -531,7 +535,7 @@
    "certificate": "partial",
    "guide_check": "own direct canonical-form count (d4orb.c, no Burnside) agrees for n = 1..8; n = 9 running",
    "prior_art": "labelled counts A398172 (ours); A000769 counts 2n-point solutions only",
-   "next": "guide: finish own n = 9 count (running); Alex: name and definition",
+   "next": "guide: finish own n = 9 count (running); guide: write %N",
    "owner": "guide",
    "history": [
     [
@@ -552,7 +556,7 @@
    "certificate": "partial",
    "guide_check": "own direct canonical-form count (d4orb.c, no Burnside) agrees for n = 1..8; n = 9 running",
    "prior_art": "labelled counts A398184 (ours)",
-   "next": "guide: finish own n = 9 count (running); Alex: name and definition",
+   "next": "guide: finish own n = 9 count (running); guide: write %N",
    "owner": "guide",
    "history": [
     [
@@ -573,7 +577,7 @@
    "certificate": "partial",
    "guide_check": null,
    "prior_art": "Austin Gibbons, github.com/AustinBGibbons/barnette RESULTS.md (July 2026), same table through 48 vertices; not in the OEIS",
-   "next": "independent census of the minimum for n = 28..46 (beyond the replayed range); credit Gibbons; Alex: name and definition",
+   "next": "independent census of the minimum for n = 28..46 (beyond the replayed range); credit Gibbons; guide: write %N",
    "owner": "guide",
    "history": [
     [
@@ -594,12 +598,12 @@
    "kind": "new-sequence",
    "title": "Barnette graphs with positive colour-separation defect",
    "claim": "0 through n = 38, then 2, 0, 8, 88 (n = 40..46)",
-   "state": "candidate",
+   "state": "not-for-oeis",
    "certificate": "partial",
    "guide_check": null,
-   "prior_art": "Alt, Payne, Schmidt and Wood (2016): qualitative failure of the separation property",
-   "next": "doubtful as an OEIS sequence (sixteen zeros, four nonzero terms); Alex decides; independent census n = 42..46 if kept",
-   "owner": "Alex",
+   "prior_art": "Alt, Payne, Schmidt and Wood (2016): qualitative failure of the separation property; decision (guide, 13 Nov 2026): not an OEIS sequence: the defect is our own ad hoc notion, the data are sixteen zeros and four nonzero terms, and the counts for n = 42..46 are not independently certified; kept in its repository",
+   "next": null,
+   "owner": "-",
    "history": [
     [
      "2026-11-13",
@@ -608,6 +612,10 @@
     [
      "2026-11-13",
      "repository built (core c4)"
+    ],
+    [
+     "2026-11-13",
+     "decided: not for the OEIS (see prior_art field for the reason)"
     ]
    ],
    "source": "barnette"
@@ -623,7 +631,7 @@
    "certificate": "complete",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -652,7 +660,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -681,7 +689,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -710,7 +718,7 @@
    "certificate": "complete",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -739,7 +747,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -768,7 +776,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -797,7 +805,7 @@
    "certificate": "complete",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -826,7 +834,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -855,7 +863,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": null,
-   "next": "guide: re-read proof.md and programs; Alex: link only, or a comment in his own words",
+   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -906,7 +914,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -931,7 +939,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -956,7 +964,7 @@
    "certificate": "partial",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -981,7 +989,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -1006,7 +1014,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -1031,7 +1039,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -1056,7 +1064,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -1081,7 +1089,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [
@@ -1131,7 +1139,7 @@
    "certificate": "complete",
    "guide_check": null,
    "prior_art": null,
-   "next": "guide: read the source / derivation myself; Alex: link only, or a comment in his own words",
+   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
    "owner": "guide",
    "history": [
     [

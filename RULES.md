@@ -138,8 +138,17 @@ Before relying on third-party data, compare what was checked with the current ve
 - Order when a slot is free: (1) corrections of our own errors in the OEIS; (2) editors' notes on our open drafts, answered by
   fixing the entry; (3) data and links for entries we already contributed to; (4) results on other entries; (5) new sequences,
   one at a time, never in bulk or in series.
-- Human gates: the name and definition (%N) of a new sequence, any comment text (%C) and any reply to editors are the author's
-  own words. Agents prepare data, links, references, programs and %E credit lines, and never write the rest.
+- Human gates (OEIS policy forbids AI-generated full text of comments and AI-generated replies to editors): any comment text
+  (%C) and any reply to editors are the author's own words. Where an edit can do without a comment, it goes without one
+  (Alex, 13 Nov 2026): a result on someone's conjecture is added as a link to its repository, with no comment.
+- The guide writes the name (%N) of a new sequence (Alex, 13 Nov 2026: «сам не можешь сделать?»): one precise line that
+  says exactly what the certificate's definition says, with no claims beyond it; the policy requires the submitter to check
+  that the name is accurate and complete, so the guide checks it against the programs and the certificate before submitting
+  and shows the final text in his report. Agents also prepare data, links, references and %E credit lines.
+- What is worth a new sequence (the guide decides, and records the reason in the registry): it is well defined; it is of
+  interest to a human reader (a natural quantity, or a natural companion of an existing entry, not an artefact of our own
+  ad hoc definitions); it has enough certain terms to be searchable (as a rule at least 8 to 10 nonzero terms); it is not an
+  existing entry under another offset or indexing; and every term is covered by a complete certificate.
 - Before submitting: certificate complete, prior art re-checked, live entry re-read (someone may have edited it), registry updated.
 - After approval: registry updated, repository tagged and archived at Zenodo (the DOI goes into the registry and the README,
   not into the OEIS entry, which links the repository only).
