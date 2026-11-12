@@ -43,7 +43,7 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 
 1. [A000043](https://oeis.org/A000043) — A modular characterization involving Mersenne and Fermat numbers; not found in either set; 719 incoming references. Open (12 Nov 2026 check: forward direction of Barina's congruence only), see [task](../../tasks/2026-11-12-A000043-barina-congruence/answers/2026-11-12-chatgpt.md).
 2. [A000668](https://oeis.org/A000668) — Uniqueness of 31 in a stated divisor-sum condition; not found in either set; 662 incoming references. **Open; reduces to a prime-base Goormaghtigh case; the "proof" in A023194 is conditional (12 Nov 2026 check)**, see [task](../../tasks/2026-11-12-A000668-sigma-collision-31/answers/2026-11-12-chatgpt.md).
-3. [A007097](https://oeis.org/A007097) — Asymptotic product of logarithms of the terms; not found in either set; 286 incoming references.
+3. [A007097](https://oeis.org/A007097) — Asymptotic product of logarithms of the terms; not found in either set; 286 incoming references. **Refuted (12 Nov 2026 check): the product is ~ C·a(n)·log log a(n), C ≈ 0.238; OEIS comment pending**, see [task](../../tasks/2026-11-12-A007097-primeth-log-product/answers/2026-11-12-chatgpt.md).
 4. [A000170](https://oeis.org/A000170) — Strong asymptotic estimate for the terms; the weak exponential rate is established in the entry; not found in either set; 91 incoming references.
 5. [A002827](https://oeis.org/A002827) — Whether the sequence lies within the Zumkeller numbers; not found in either set; 48 incoming references. **Proved by Mella (Zenodo 10.5281/zenodo.24088940, 9 Nov 2026); our independent proof is not new**, see [task](../../tasks/2026-11-12-A002827-unitary-perfect-zumkeller/answers/2026-11-12-chatgpt.md).
 6. [A007850](https://oeis.org/A007850) — Arithmetic-derivative characterization of Giuga numbers; not found in either set; 55 incoming references.
@@ -61,16 +61,16 @@ Thirty selected leads, ranked by the same watch score. Twenty-four choices were 
 18. [A075245](https://oeis.org/A075245) — A proposed formula with specified exceptional indices; not found in either set; 17 incoming references. **Refuted (12 Nov 2026 check): fails at n = 409, per the entry's own b-file; OEIS comment pending**, see [task](../../tasks/2026-11-12-A075245-egyptian-floor-formula/answers/2026-11-12-chatgpt.md).
 19. [A064591](https://oeis.org/A064591) — A characterization using reciprocal sums over divisors; not found in either set; 26 incoming references. **Open; exact reduction to Ligh–Wall plus no odd perfect numbers (12 Nov 2026 check)**, see [task](../../tasks/2026-11-12-A064591-nonunitary-perfect-inverses/answers/2026-11-12-chatgpt.md).
 20. [A058129](https://oeis.org/A058129) — An asymptotic relation to A027851; not found in either set; 16 incoming references.
-21. [A059442](https://oeis.org/A059442) — The fence conjecture for the stated Ramsey bound; not found in either set; 7 incoming references.
+21. [A059442](https://oeis.org/A059442) — The fence conjecture for the stated Ramsey bound; not found in either set; 7 incoming references. **Refuted (12 Nov 2026 check): Erdős's bound beats the fence bound at m = n = 74; OEIS comment pending**, see [task](../../tasks/2026-11-12-A059442-ramsey-fence/answers/2026-11-12-chatgpt.md).
 22. [A347391](https://oeis.org/A347391) — Whether the sequence is finite; not found in either set; 23 incoming references.
-23. [A038552](https://oeis.org/A038552) — An open largest-discriminant conjecture; the formal file also marks a different statement solved; formal-conjectures; 9 incoming references.
+23. [A038552](https://oeis.org/A038552) — An open largest-discriminant conjecture; the formal file also marks a different statement solved; formal-conjectures; 9 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A038552-class-number-discriminant/answers/2026-11-12-chatgpt.md).
 24. [A051602](https://oeis.org/A051602) — An asymptotic density conjecture for maximal grid arrangements; not found in either set; 6 incoming references.
 25. [A345370](https://oeis.org/A345370) — A proposed value for a(12); not found in either set; 9 incoming references.
-26. [A340726](https://oeis.org/A340726) — Maximum numerator–denominator product for resistor networks; OEIS Open; 3 incoming references.
+26. [A340726](https://oeis.org/A340726) — Maximum numerator–denominator product for resistor networks; OEIS Open; 3 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A340726-resistor-power/answers/2026-11-12-chatgpt.md).
 27. [A119591](https://oeis.org/A119591) — Whether a(n) exists for every n ≥ 2; OEIS Open + formal-conjectures; 2 incoming references.
 28. [A334916](https://oeis.org/A334916) — Whether a base other than 6 or 10 has a unique baseless number; OEIS Open; 1 incoming references.
 29. [A358684](https://oeis.org/A358684) — Conjecture II, a(n) ~ 2^n; the entry reports Conjecture I solved; OEIS Open + formal-conjectures; 0 incoming references.
-30. [A229232](https://oeis.org/A229232) — Whether a(n) is positive for n > 5 except n = 13; OEIS Open + formal-conjectures; 0 incoming references.
+30. [A229232](https://oeis.org/A229232) — Whether a(n) is positive for n > 5 except n = 13; OEIS Open + formal-conjectures; 0 incoming references. Open (12 Nov 2026 check), see [task](../../tasks/2026-11-12-A229232-sun-circular-primes/answers/2026-11-12-chatgpt.md).
 
 ## C. Most watched by a transparent composite
 
