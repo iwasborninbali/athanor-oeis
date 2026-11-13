@@ -547,16 +547,20 @@
    "kind": "new-sequence",
    "title": "no-three-in-line subsets of the n X n grid up to the symmetries of the square",
    "claim": "2, 6, 46, 667, 14066, 451720, 12713128, 514304337, 20987026978 (n = 1..9)",
-   "state": "candidate",
-   "certificate": "partial",
-   "guide_check": "own direct canonical-form count (d4orb.c, no Burnside) agrees for n = 1..8; n = 9 running",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "own direct canonical-form count (d4orb.c) agrees for n = 1..9 (and reproduces A398172, A398184 to n = 9)",
    "prior_art": "labelled counts A398172 (ours); A000769 counts 2n-point solutions only",
-   "next": "guide: finish own n = 9 count (running); guide: write %N",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "repository built (core c3)"
+    ],
+    [
+     "2026-11-13",
+     "verified: guide count n = 1..9"
     ]
    ],
    "source": null
@@ -568,16 +572,20 @@
    "kind": "new-sequence",
    "title": "maximal no-three-in-line subsets up to the symmetries of the square",
    "claim": "1, 1, 6, 56, 758, 14798, 306727, 8319524, 232764015 (n = 1..9)",
-   "state": "candidate",
-   "certificate": "partial",
-   "guide_check": "own direct canonical-form count (d4orb.c, no Burnside) agrees for n = 1..8; n = 9 running",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "own direct canonical-form count (d4orb.c) agrees for n = 1..9 (and reproduces A398172, A398184 to n = 9)",
    "prior_art": "labelled counts A398184 (ours)",
-   "next": "guide: finish own n = 9 count (running); guide: write %N",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "repository built (core c3)"
+    ],
+    [
+     "2026-11-13",
+     "verified: guide count n = 1..9"
     ]
    ],
    "source": null
@@ -618,7 +626,7 @@
    "certificate": "complete",
    "guide_check": "own program (bsep.c, 2-factor method, no cycle enumeration) agrees for 8..46 vertices; graph counts equal A007083",
    "prior_art": "Alt, Payne, Schmidt and Wood (2016), Theorem 4: graphs where every Hamiltonian cycle has at least k faces of each colour on each side (the weaker one-class property S1 fails); the counts by order are not in the OEIS",
-   "next": "ChatGPT agent (own program): 48: 75, 50: 1032, 52 in progress; property S1 never fails through 50 (so S2 is the sequence); guide VM recount 48-52 running",
+   "next": "guide VM recount: 48: 75, 50: 1032 (agree with the ChatGPT agent); 52 running on both; then certificate and %N",
    "owner": "guide",
    "history": [
     [
