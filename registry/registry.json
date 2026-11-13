@@ -10,10 +10,10 @@
    "title": "a(7)-a(12) of the greatest prime with exactly n consecutive quadratic residues",
    "claim": "a(7)..a(12) = 4481, 9857, 25793, 60961, 132113, 324673",
    "state": "proposed",
-   "certificate": "partial",
-   "guide_check": "second full scan of a(12) by the guide (12 Nov 2026); the independent check of a(11) was a sample scan only (found by core c7, 13 Nov 2026)",
+   "certificate": "complete",
+   "guide_check": "full independent rescans by the guide of a(11) (13 Nov 2026, 1427 exceptions identical) and a(12) (12 Nov 2026)",
    "prior_art": "Buell and Hudson (1984) had the search range covering a(7)-a(8); credited in the entry",
-   "next": "guide: full independent rescan of a(11) (running, two shards); certificate complete when it agrees",
+   "next": "wait for editors; answer notes by fixing the entry",
    "owner": "guide",
    "history": [
     [
@@ -23,6 +23,10 @@
     [
      "2026-11-13",
      "gap found: no independent full scan of a(11); guide rescan started"
+    ],
+    [
+     "2026-11-13",
+     "gap closed: guide full rescan of a(11) identical to the certificate"
     ]
    ],
    "source": null

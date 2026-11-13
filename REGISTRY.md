@@ -8,7 +8,7 @@ Counts: proposed 3, queued 1, verified 10, candidate 21, idea 3, approved 8, not
 
 | Entry | Repository | Kind | What | Certificate | Next (owner) |
 |---|---|---|---|---|---|
-| [A097160](https://oeis.org/A097160) | [oeis-A097160](https://github.com/iwasborninbali/oeis-A097160) | terms | a(7)-a(12) of the greatest prime with exactly n consecutive quadratic residues: a(7)..a(12) = 4481, 9857, 25793, 60961, 132113, 324673 *Prior art: Buell and Hudson (1984) had the search range covering a(7)-a(8); credited in the entry* | partial | guide: full independent rescan of a(11) (running, two shards); certificate complete when it agrees (guide) |
+| [A097160](https://oeis.org/A097160) | [oeis-A097160](https://github.com/iwasborninbali/oeis-A097160) | terms | a(7)-a(12) of the greatest prime with exactly n consecutive quadratic residues: a(7)..a(12) = 4481, 9857, 25793, 60961, 132113, 324673 *Prior art: Buell and Hudson (1984) had the search range covering a(7)-a(8); credited in the entry* | complete | wait for editors; answer notes by fixing the entry (guide) |
 | [A399138](https://oeis.org/A399138) | [oeis-A399138](https://github.com/iwasborninbali/oeis-A399138) | correction | delete our false comment on layer profiles; witness file n = 1..11 (a(9) >= 116, a(10) >= 138, a(11) >= 164) | complete | wait for editors; answer notes by fixing the entry (guide) |
 | [A280537](https://oeis.org/A280537) | [oeis-A280537](https://github.com/iwasborninbali/oeis-A280537) | bounds | link to the repository; a(21) >= 47, a(22) >= 49, a(27) >= 56 *Prior art: improvements over the 2017 OEIS comment and Al Zimmermann's 2016 contest, per the repository note* | complete | wait for editors; answer notes by fixing the entry (guide) |
 
