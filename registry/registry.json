@@ -55,12 +55,12 @@
    "kind": "link",
    "title": "replace the no3-results link by the repository link",
    "claim": null,
-   "state": "reviewed",
+   "state": "approved",
    "certificate": "complete",
    "guide_check": "link target checked by the guide",
    "prior_art": null,
-   "next": "wait for approval",
-   "owner": "editors",
+   "next": null,
+   "owner": "-",
    "history": [
     [
      "2026-11-13",
@@ -73,6 +73,10 @@
     [
      "2026-11-13",
      "reviewed (edit #39, Andrew Howroyd, no notes)"
+    ],
+    [
+     "2026-11-13",
+     "approved (live revision #40)"
     ]
    ],
    "source": null
