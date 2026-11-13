@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "rules": "../RULES.md",
  "records": [
   {
@@ -256,6 +256,10 @@
     [
      "2026-11-13",
      "submitted: link to oeis-A280537 with a(21) >= 47, a(22) >= 49, a(27) >= 56 in its title"
+    ],
+    [
+     "2026-11-14",
+     "2026-11-13 13:38 EST: editor Andrew Howroyd set the link text to the repository page's title ('OEIS A280537: no four coplanar points in a cube'), edits #55-#56; no reply needed, nothing to change on our side"
     ]
    ],
    "source": null
