@@ -621,12 +621,12 @@
    "repo": "oeis-A______-barnette-graphs-colour-separation-defect",
    "kind": "new-sequence",
    "title": "Barnette graphs on 2n vertices with no Hamiltonian cycle separating two face colour classes",
-   "claim": "0 for 8..38 vertices, then 2, 0, 8, 88 at 40, 42, 44, 46 vertices",
-   "state": "candidate",
+   "claim": "0 for 8..38 vertices, then 2, 0, 8, 88, 75, 1032, 3817 for 40..52 vertices",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "own program (bsep.c, 2-factor method, no cycle enumeration) agrees for 8..46 vertices; graph counts equal A007083",
+   "guide_check": "own program (bsep.c) and a ChatGPT agent program agree at every order 8..52; graph counts = A007083",
    "prior_art": "Alt, Payne, Schmidt and Wood (2016), Theorem 4: graphs where every Hamiltonian cycle has at least k faces of each colour on each side (the weaker one-class property S1 fails); the counts by order are not in the OEIS",
-   "next": "guide VM recount: 48: 75, 50: 1032 (agree with the ChatGPT agent); 52 running on both; then certificate and %N",
+   "next": "guide: write %N; queue as a new sequence (one at a time)",
    "owner": "guide",
    "history": [
     [
@@ -644,6 +644,10 @@
     [
      "2026-11-13",
      "reconsidered with Alex: the two failed criteria (few terms, uncertified 42..46) are fixable by computing; guide recount 8..46 agrees"
+    ],
+    [
+     "2026-11-13",
+     "verified to 52 vertices by two independent programs"
     ]
    ],
    "source": "barnette"
