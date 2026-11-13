@@ -109,7 +109,9 @@ and can run the computation there.
    draft pull request into `main`. Never `main` itself. After pushing, the agent reads every file back through the connector
    and compares hashes (seen on 13 Nov 2026: some '?' characters became NUL bytes in transit; restoring them reproduced the
    manifest exactly, and the guide's repair is a separate commit on the branch). The guide reviews the branch, checks the
-   manifest, reruns the agent's programs, and merges.
+   manifest, reruns the agent's programs, and merges. Agents never add GitHub Actions workflows or any other hosted CI (seen on 13 Nov 2026: an agent unpacked its archive with a
+   workflow; the guide took only the result folder), and never include third-party code or data (for example a copy of
+   plantri) in a delivery; the guide removes such files before merging.
    Fallback when the connector cannot reach the repository: one archive (`result-<slug>.zip` with the same contents)
    attached to the reply, with its SHA-256 in the text, downloaded with `cgpt download --thread verify-<slug>`. Observed on
    13 Nov 2026: the bridge cannot download a file the agent shows as an inline sandbox link without a file card, so git is
