@@ -238,16 +238,20 @@
    "kind": "bounds",
    "title": "link to the repository; a(21) >= 47, a(22) >= 49, a(27) >= 56",
    "claim": null,
-   "state": "queued",
+   "state": "proposed",
    "certificate": "complete",
    "guide_check": "witnesses checked with the guide's own code (no4p.py)",
    "prior_art": "improvements over the 2017 OEIS comment and Al Zimmermann's 2016 contest, per the repository note",
-   "next": "submit when a slot is free",
+   "next": "wait for editors; answer notes by fixing the entry",
    "owner": "guide",
    "history": [
     [
      "2026-11-13",
      "queued"
+    ],
+    [
+     "2026-11-13",
+     "submitted: link to oeis-A280537 with a(21) >= 47, a(22) >= 49, a(27) >= 56 in its title"
     ]
    ],
    "source": null
