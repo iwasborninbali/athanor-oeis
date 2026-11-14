@@ -869,11 +869,11 @@
    "kind": "correction",
    "title": "Fence conjecture fails at m = n = 74 (Erdos 1947)",
    "claim": null,
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide read proof.md line by line (correct) and replayed the independent referee's program (PASS)",
+   "prior_art": "Luo's fence conjecture (A059442, 2024; MSE 4812195, 2023): Lavrov refuted the original equality, not the revised bound; no earlier refutation of the revised bound found",
+   "next": "submit as a link only, no comment, when a draft slot is free",
    "owner": "guide",
    "history": [
     [
@@ -887,6 +887,10 @@
     [
      "2026-11-13",
      "repository built (core c5)"
+    ],
+    [
+     "2026-11-15",
+     "certificate complete: guide's reading, independent referee and replay, prior art (15 Nov 2026)"
     ]
    ],
    "source": null
@@ -898,11 +902,11 @@
    "kind": "correction",
    "title": "hypothesis of Oct 09 2011 false as worded (example in A193802)",
    "claim": null,
-   "state": "candidate",
+   "state": "not-for-oeis",
    "certificate": "partial",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide replayed the referee's checks (PASS)",
+   "prior_art": "the 14-mark length-68 ruler is historically established; it does not disprove Luschny's conjectures as historically stated (independent referee, 15 Nov 2026)",
+   "next": "none",
    "owner": "guide",
    "history": [
     [
@@ -916,6 +920,10 @@
     [
      "2026-11-13",
      "repository built (core c5)"
+    ],
+    [
+     "2026-11-15",
+     "independent referee 15 Nov 2026: the ruler is historically established and does not disprove Luschny's conjectures as stated"
     ]
    ],
    "source": null
@@ -927,11 +935,11 @@
    "kind": "proof",
    "title": "Lagneau's conjecture equivalent to Ligh-Wall plus no odd perfect numbers",
    "claim": null,
-   "state": "candidate",
-   "certificate": "partial",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "15 Nov 2026: guide read proof.md line by line (correct) and replayed the independent referee's program (PASS)",
+   "prior_art": "Ligh and Wall (Fib. Quart. 1987) state the converse as Conjecture 1; Hagis (1990); MO 306760; no earlier statement of the reduction found",
+   "next": "submit as a link only, no comment, when a draft slot is free",
    "owner": "guide",
    "history": [
     [
@@ -945,6 +953,10 @@
     [
      "2026-11-13",
      "repository built (core c5)"
+    ],
+    [
+     "2026-11-15",
+     "certificate complete: guide's reading, independent referee and replay, prior art (15 Nov 2026)"
     ]
    ],
    "source": null
@@ -982,11 +994,11 @@
    "kind": "correction",
    "title": "third form should be (p^r+1)/2",
    "claim": null,
-   "state": "candidate",
+   "state": "verified",
    "certificate": "complete",
-   "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide checked the four factor assignments by hand (correct) and replayed the referee's program (PASS)",
+   "prior_art": "plus-half form known in special cases: Schoenfield's A340865 (2021, six divisors) and A349699 (2021, ten divisors); the sign error in A081978 (comment of 2014) was not found corrected",
+   "next": "Alex decides: a one-character sign fix in Schoenfield's comment (f3 = (p^r+1)/2), crediting A340865 and A349699; not new mathematics",
    "owner": "guide",
    "history": [
     [
@@ -996,6 +1008,10 @@
     [
      "2026-11-13",
      "repository built (core c6)"
+    ],
+    [
+     "2026-11-15",
+     "certificate complete: guide's reading, independent referee and replay, prior art (15 Nov 2026)"
     ]
    ],
    "source": null
@@ -1009,9 +1025,9 @@
    "claim": null,
    "state": "candidate",
    "certificate": "complete",
-   "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide replayed the referee's check (PASS); arithmetic B = 101^3 a(6) confirmed",
+   "prior_art": "the key calculation predates our note (independent referee, 15 Nov 2026); correcting the parenthetical is justified but not new",
+   "next": "needs Alex's own words for a comment correction; otherwise drop",
    "owner": "guide",
    "history": [
     [
@@ -1059,9 +1075,9 @@
    "claim": null,
    "state": "candidate",
    "certificate": "complete",
-   "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide read proof.md (conditional on Goormaghtigh; correct as a conditional argument) and replayed the referee's check (PASS)",
+   "prior_art": "not new as mathematics (independent referee, 15 Nov 2026); the point is that the entry's 'Proof' assumes the Goormaghtigh conjecture (Grantham's finite bound does not remove it)",
+   "next": "needs Alex's own words to mark the entry's proof as conditional; otherwise drop",
    "owner": "guide",
    "history": [
     [
