@@ -260,6 +260,10 @@
     [
      "2026-11-14",
      "2026-11-13 13:38 EST: editor Andrew Howroyd set the link text to the repository page's title ('OEIS A280537: no four coplanar points in a cube'), edits #55-#56; no reply needed, nothing to change on our side"
+    ],
+    [
+     "2026-11-14",
+     "2026-11-14 09:56 EST: editor Michel Marcus changed http to https in three older links (Wolfram Demonstrations, Math StackExchange, AZsPCs), edits #57-#58, status back to proposed; no reply needed, nothing to change on our side"
     ]
    ],
    "source": null
