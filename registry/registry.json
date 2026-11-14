@@ -683,11 +683,11 @@
    "kind": "correction",
    "title": "formula a(n) = A078607(n) + 2 fails at n = 777451915729368",
    "claim": null,
-   "state": "candidate",
+   "state": "not-for-oeis",
    "certificate": "complete",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide replayed the independent referee's interval-arithmetic check (witness PASS, exact scan to n = 5000 PASS)",
+   "prior_art": "Best and te Riele, Math. Centrum report NW 23/76 (1976) give the same pair; Guy, UPINT D7; A078607 prints A078607(777451915729368) = 1121626023352384 (Hasler 2013); A332101 already notes the possible exception at this index",
+   "next": "none: the value is published (1976) and already recorded in A078607 and A332101",
    "owner": "guide",
    "history": [
     [
@@ -701,6 +701,10 @@
     [
      "2026-11-13",
      "repository built (core c5)"
+    ],
+    [
+     "2026-11-15",
+     "independent referee 15 Nov 2026: known since Best and te Riele 1976; the value is in A078607"
     ]
    ],
    "source": null
@@ -712,11 +716,11 @@
    "kind": "proof",
    "title": "Cloitre's conjecture proved (iff x = 2 or a Fermat prime)",
    "claim": null,
-   "state": "candidate",
-   "certificate": "partial",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "15 Nov 2026: guide read proof.md line by line (correct, complete) and replayed the independent referee's C++ check through 5e7 (PASS)",
+   "prior_art": "Cloitre's conjecture (A092506, 2018) still open in the entry; prime-only case in A171271; no earlier proof of the exact equivalence found (OEIS, arXiv, MO, MSE, web-indexed zbMATH; not exhaustive)",
+   "next": "submit as a link only (repository oeis-A092506 after promotion), no comment, when a draft slot is free",
    "owner": "guide",
    "history": [
     [
@@ -730,6 +734,10 @@
     [
      "2026-11-13",
      "repository built (core c5)"
+    ],
+    [
+     "2026-11-15",
+     "certificate complete: guide's proof reading, independent referee and C++ check to 5e7, prior-art search (15 Nov 2026)"
     ]
    ],
    "source": null
@@ -744,8 +752,8 @@
    "state": "candidate",
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "prior_art": "Schoenfield's formulas (A328151, Jan 2022) still labelled conjectures; Oudra's formula of 8 Dec 2025 in A063725/A143259 implies D(2m^2) = D(m^2); the bijection appears in a Math Stack Exchange comment (May 2020)",
+   "next": "guide: read proof.md; if kept, credit Oudra 2025 and MSE 2020 in README and PRIOR-ART, then link only",
    "owner": "guide",
    "history": [
     [
@@ -773,8 +781,8 @@
    "state": "candidate",
    "certificate": "complete",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "prior_art": "Torelli, Increasing integer sequences and Goldbach's conjecture, RAIRO ITA 40 (2006): the Catalan lower bound follows by an elementary transformation (independent referee, 15 Nov 2026)",
+   "next": "check whether A167809 cites Torelli 2006; if not, propose that reference instead of our proof",
    "owner": "guide",
    "history": [
     [
@@ -801,9 +809,9 @@
    "claim": null,
    "state": "candidate",
    "certificate": "partial",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "guide_check": "15 Nov 2026: guide checked proof.md by hand (x = 103: mod-3 obstruction; x = 104: A = 7, B = 42536, d = 52, z = 4976712; x = 105 gives z = 7987770) and replayed the referee's scan to n = 5000 (28 failures, PASS)",
+   "prior_art": "Hasler's conjecture (2 Jul 2022) is contradicted by the entry's own table b075245.txt (x = 105 at n = 409); A257843 lists 409, 769, 1129, ... where the decompositions differ",
+   "next": "decide: a link-only correction has low novelty (the entry's own b-file shows the failure); low priority",
    "owner": "guide",
    "history": [
     [
@@ -831,8 +839,8 @@
    "state": "candidate",
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
-   "prior_art": null,
-   "next": "guide: re-read proof.md and programs; submit as a link only, no comment",
+   "prior_art": "Ordowski's 2015 conjecture still open in the entry; MathOverflow 357765 (2020) asks for its proof or disproof without a resolution; Axler (JIS 2019) and Cipolla's expansion are the analytic inputs; no earlier proof found",
+   "next": "guide: read proof.md (asymptotics) myself; then verified and link only",
    "owner": "guide",
    "history": [
     [
@@ -944,16 +952,20 @@
    "kind": "link",
    "title": "pointer to the A332101 counterexample (Hasler's 'it appears' comment)",
    "claim": null,
-   "state": "idea",
+   "state": "not-for-oeis",
    "certificate": "partial",
    "guide_check": null,
    "prior_art": null,
-   "next": "after A332101 is submitted",
+   "next": "none: A078607 already prints the value; see A332101-result",
    "owner": "guide",
    "history": [
     [
      "2026-11-12",
      "found"
+    ],
+    [
+     "2026-11-15",
+     "follows A332101-result"
     ]
    ],
    "source": null,
