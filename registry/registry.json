@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "rules": "../RULES.md",
  "records": [
   {
@@ -304,7 +304,7 @@
    "kind": "link",
    "title": "link to the repository (orbit-sum check of a(20))",
    "claim": null,
-   "state": "queued",
+   "state": "proposed",
    "certificate": "complete",
    "guide_check": "collinearity of all 118057 representatives and orbit sums checked by the guide; n = 20 part identical to the current database (all_known_solutions, 2026-10-28, n <= 78)",
    "prior_art": null,
@@ -314,6 +314,10 @@
     [
      "2026-11-13",
      "queued"
+    ],
+    [
+     "2026-11-15",
+     "submitted: one %H line, the repository oeis-A000755 (link text = repository page title), between Guy and Riley"
     ]
    ],
    "source": null
