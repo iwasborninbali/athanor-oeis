@@ -836,11 +836,11 @@
    "kind": "correction",
    "title": "conjecture of Mar 26 2015 false; corrected asymptotic",
    "claim": null,
-   "state": "candidate",
-   "certificate": "partial",
-   "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
+   "state": "verified",
+   "certificate": "complete",
+   "guide_check": "15 Nov 2026: guide read proof.md line by line (correct) and replayed the referee's recurrence to n = 14 (PASS)",
    "prior_art": "Ordowski's 2015 conjecture still open in the entry; MathOverflow 357765 (2020) asks for its proof or disproof without a resolution; Axler (JIS 2019) and Cipolla's expansion are the analytic inputs; no earlier proof found",
-   "next": "guide: read proof.md (asymptotics) myself; then verified and link only",
+   "next": "submit as a link only (repository oeis-A007097 after promotion), no comment, when a draft slot is free",
    "owner": "guide",
    "history": [
     [
@@ -854,6 +854,10 @@
     [
      "2026-11-13",
      "repository built (core c5)"
+    ],
+    [
+     "2026-11-15",
+     "certificate complete: guide's proof reading, referee to n = 14, prior art (MO 357765 unresolved)"
     ]
    ],
    "source": null
