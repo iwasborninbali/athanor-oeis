@@ -27,6 +27,10 @@
     [
      "2026-11-13",
      "gap closed: guide full rescan of a(11) identical to the certificate"
+    ],
+    [
+     "2026-11-15",
+     "reply in the discussion, the owner's approved text (posted Sat Nov 14 16:14 EST): Zenodo duplicate removed, links alphabetical, Buell-Hudson relevance, a(7)-a(12) certified in the repository"
     ]
    ],
    "source": null
@@ -683,11 +687,11 @@
    "kind": "correction",
    "title": "formula a(n) = A078607(n) + 2 fails at n = 777451915729368",
    "claim": null,
-   "state": "not-for-oeis",
+   "state": "candidate",
    "certificate": "complete",
    "guide_check": "15 Nov 2026: guide replayed the independent referee's interval-arithmetic check (witness PASS, exact scan to n = 5000 PASS)",
    "prior_art": "Best and te Riele, Math. Centrum report NW 23/76 (1976) give the same pair; Guy, UPINT D7; A078607 prints A078607(777451915729368) = 1121626023352384 (Hasler 2013); A332101 already notes the possible exception at this index",
-   "next": "none: the value is published (1976) and already recorded in A078607 and A332101",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -705,9 +709,14 @@
     [
      "2026-11-15",
      "independent referee 15 Nov 2026: known since Best and te Riele 1976; the value is in A078607"
+    ],
+    [
+     "2026-11-15",
+     "owner 15 Nov 2026: no correction is too small; back to candidate, on hold with the doubts recorded"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "the pair is published by Best and te Riele (Math. Centrum NW 23/76, 1976; Guy UPINT D7) and A078607 prints A078607(777451915729368); A332101 already mentions a possible exception at this index. Open question: is a link to our certified check (with the 1976 source credited) still useful to readers of A332101, whose formula is stated as 'it appears'?"
   },
   {
    "id": "A092506-result",
@@ -753,7 +762,7 @@
    "certificate": "partial",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": "Schoenfield's formulas (A328151, Jan 2022) still labelled conjectures; Oudra's formula of 8 Dec 2025 in A063725/A143259 implies D(2m^2) = D(m^2); the bijection appears in a Math Stack Exchange comment (May 2020)",
-   "next": "guide: read proof.md; if kept, credit Oudra 2025 and MSE 2020 in README and PRIOR-ART, then link only",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -769,7 +778,8 @@
      "repository built (core c5)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "proof correct (independent referee); but Oudra's formula of 8 Dec 2025 (A063725/A143259) implies D(2m^2) = D(m^2), and a Math Stack Exchange comment (May 2020) gives the same bijection. Open question: is a complete proof of both Schoenfield formulas still worth linking, with those credited? The guide has not yet read proof.md himself."
   },
   {
    "id": "A167809-result",
@@ -782,7 +792,7 @@
    "certificate": "complete",
    "guide_check": "answer reviewed by the guide on 12 Nov 2026 (tasks/README.md); repository write-up not yet re-read",
    "prior_art": "Torelli, Increasing integer sequences and Goldbach's conjecture, RAIRO ITA 40 (2006): the Catalan lower bound follows by an elementary transformation (independent referee, 15 Nov 2026)",
-   "next": "check whether A167809 cites Torelli 2006; if not, propose that reference instead of our proof",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -798,7 +808,8 @@
      "repository built (core c5)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "proof correct (guide and referee); the referee reports the bound follows from Torelli, RAIRO ITA 40 (2006), which A167809 does not cite. Open questions: confirm Torelli by reading it (the guide has not); then link our proof, propose Torelli as the reference, or both."
   },
   {
    "id": "A075245-result",
@@ -811,7 +822,7 @@
    "certificate": "partial",
    "guide_check": "15 Nov 2026: guide checked proof.md by hand (x = 103: mod-3 obstruction; x = 104: A = 7, B = 42536, d = 52, z = 4976712; x = 105 gives z = 7987770) and replayed the referee's scan to n = 5000 (28 failures, PASS)",
    "prior_art": "Hasler's conjecture (2 Jul 2022) is contradicted by the entry's own table b075245.txt (x = 105 at n = 409); A257843 lists 409, 769, 1129, ... where the decompositions differ",
-   "next": "decide: a link-only correction has low novelty (the entry's own b-file shows the failure); low priority",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -827,7 +838,8 @@
      "repository built (core c5)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "refutation correct (guide and referee, failures to n = 5000); but the entry's own table b075245.txt already shows x = 105 at n = 409 and A257843 lists 409, 769, 1129, ... Open question: how to point this out without a comment of our own."
   },
   {
    "id": "A007097-result",
@@ -902,11 +914,11 @@
    "kind": "correction",
    "title": "hypothesis of Oct 09 2011 false as worded (example in A193802)",
    "claim": null,
-   "state": "not-for-oeis",
+   "state": "candidate",
    "certificate": "partial",
    "guide_check": "15 Nov 2026: guide replayed the referee's checks (PASS)",
    "prior_art": "the 14-mark length-68 ruler is historically established; it does not disprove Luschny's conjectures as historically stated (independent referee, 15 Nov 2026)",
-   "next": "none",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -924,9 +936,14 @@
     [
      "2026-11-15",
      "independent referee 15 Nov 2026: the ruler is historically established and does not disprove Luschny's conjectures as stated"
+    ],
+    [
+     "2026-11-15",
+     "owner 15 Nov 2026: no correction is too small; back to candidate, on hold with the doubts recorded"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "the 14-mark length-68 ruler is historically established; the referee says it does not disprove Luschny's conjectures as historically stated and did not certify optimality independently. Open question: what exactly the entry's hypothesis of 9 Oct 2011 says and whether our example contradicts its wording."
   },
   {
    "id": "A064591-result",
@@ -968,11 +985,11 @@
    "kind": "link",
    "title": "pointer to the A332101 counterexample (Hasler's 'it appears' comment)",
    "claim": null,
-   "state": "not-for-oeis",
+   "state": "idea",
    "certificate": "partial",
    "guide_check": null,
    "prior_art": null,
-   "next": "none: A078607 already prints the value; see A332101-result",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -982,10 +999,15 @@
     [
      "2026-11-15",
      "follows A332101-result"
+    ],
+    [
+     "2026-11-15",
+     "owner 15 Nov 2026: no correction is too small; back to candidate, on hold with the doubts recorded"
     ]
    ],
    "source": null,
-   "see_repo": "oeis-A332101-unsubmitted"
+   "see_repo": "oeis-A332101-unsubmitted",
+   "doubt": "depends on A332101-result; A078607 already prints the value"
   },
   {
    "id": "A081978-correction",
@@ -998,7 +1020,7 @@
    "certificate": "complete",
    "guide_check": "15 Nov 2026: guide checked the four factor assignments by hand (correct) and replayed the referee's program (PASS)",
    "prior_art": "plus-half form known in special cases: Schoenfield's A340865 (2021, six divisors) and A349699 (2021, ten divisors); the sign error in A081978 (comment of 2014) was not found corrected",
-   "next": "Alex decides: a one-character sign fix in Schoenfield's comment (f3 = (p^r+1)/2), crediting A340865 and A349699; not new mathematics",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1014,7 +1036,8 @@
      "certificate complete: guide's reading, independent referee and replay, prior art (15 Nov 2026)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "derivation correct (guide and referee); the fix changes one sign in Schoenfield's comment of 2014, and the plus-half form is already in his A340865 and A349699 (2021). Open question: whether to edit another contributor's comment and how to credit."
   },
   {
    "id": "A011541-correction",
@@ -1027,7 +1050,7 @@
    "certificate": "complete",
    "guide_check": "15 Nov 2026: guide replayed the referee's check (PASS); arithmetic B = 101^3 a(6) confirmed",
    "prior_art": "the key calculation predates our note (independent referee, 15 Nov 2026); correcting the parenthetical is justified but not new",
-   "next": "needs Alex's own words for a comment correction; otherwise drop",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1039,7 +1062,8 @@
      "repository built (core c6)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "arithmetic correct (referee, replay); the key calculation predates our note. A correction of the parenthetical needs a comment in the owner's words."
   },
   {
    "id": "A000170-correction",
@@ -1077,7 +1101,7 @@
    "certificate": "complete",
    "guide_check": "15 Nov 2026: guide read proof.md (conditional on Goormaghtigh; correct as a conditional argument) and replayed the referee's check (PASS)",
    "prior_art": "not new as mathematics (independent referee, 15 Nov 2026); the point is that the entry's 'Proof' assumes the Goormaghtigh conjecture (Grantham's finite bound does not remove it)",
-   "next": "needs Alex's own words to mark the entry's proof as conditional; otherwise drop",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1089,7 +1113,8 @@
      "repository built (core c6)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "the entry's 'Proof' is conditional on the Goormaghtigh conjecture (Grantham's finite bound does not remove it); not new mathematics. A correction needs a comment in the owner's words."
   },
   {
    "id": "A001419-reference",
