@@ -1075,8 +1075,8 @@
    "state": "candidate",
    "certificate": "partial",
    "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "prior_art": "independent referee 15 Nov 2026: the logarithmic limit follows from Simkin's theorem and Stirling's formula; the converted constants were stated explicitly in 2025",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1088,7 +1088,8 @@
      "repository built (core c6)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "not new; the refined bounds rely on Simkin's theorem, which the referee did not certify; the value is correcting the entry's constants (0.944 / 2.570 instead of 0.90 / 2.54)"
   },
   {
    "id": "A023194-correction",
@@ -1126,8 +1127,8 @@
    "state": "candidate",
    "certificate": "complete",
    "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "prior_art": "independent referee 15 Nov 2026: Madras, A pattern theorem for lattice clusters, Ann. Comb. 3 (1999), Theorem 2.1, eq. (16) supports the claim",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1139,7 +1140,8 @@
      "repository built (core c6)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "an equivalent correction already appears in A000105; whether A001419 itself lacks it is open (the live history was not accessible to the referee)"
   },
   {
    "id": "A005432-reference",
@@ -1151,8 +1153,8 @@
    "state": "candidate",
    "certificate": "complete",
    "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "prior_art": "independent referee 15 Nov 2026: Roney-Dougal and Tracey, arXiv:2503.05416, Theorem 1 gives the asymptotic rate; the live entry does not cite it",
+   "next": "guide: read Theorem 1 of arXiv:2503.05416 myself; then complete the certificate (referee verdict: complete)",
    "owner": "guide",
    "history": [
     [
@@ -1176,8 +1178,8 @@
    "state": "candidate",
    "certificate": "complete",
    "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "prior_art": "independent referee 15 Nov 2026: Hu, Song and Wu, arXiv:2609.39463v2, Corollary 1.2 states Pr(singular) = (1+o(1)) n^2 2^-n for {0,1} matrices, matching the entry's conjectured asymptotic; the same paper's {-1,1} result may already be recorded elsewhere in the OEIS",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1189,7 +1191,8 @@
      "repository built (core c6)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "the referee could not fully check the live entry and its history (HTTP 403); whether the paper is already cited in A046747 or a companion entry is open"
   },
   {
    "id": "A387098-reference",
@@ -1201,8 +1204,8 @@
    "state": "candidate",
    "certificate": "complete",
    "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "prior_art": "independent referee 15 Nov 2026: Minevich, Cunningham, Karan and Gyllinsky, arXiv:2411.02251v1, Section VII, Theorem 3 proves the zero region and the two configurations; the entry states them but labels the zero region conjectural and does not cite the proof",
+   "next": "guide: read Section VII, Theorem 3 of arXiv:2411.02251 myself; then complete the certificate (referee verdict: complete)",
    "owner": "guide",
    "history": [
     [
@@ -1251,8 +1254,8 @@
    "state": "candidate",
    "certificate": "complete",
    "guide_check": null,
-   "prior_art": null,
-   "next": "guide: read the source / derivation myself; submit as a link only, no comment",
+   "prior_art": "independent referee 15 Nov 2026: Poonen and Rubinstein (1998), Lemma 2 implies the prime case; the entry still calls it a conjecture and does not name them",
+   "next": "on hold with doubts (owner, 15 Nov 2026: every correction is valuable; decide later); see doubt",
    "owner": "guide",
    "history": [
     [
@@ -1264,7 +1267,8 @@
      "repository built (core c6)"
     ]
    ],
-   "source": null
+   "source": null,
+   "doubt": "the entry's existing formula linking A262181 to A292355 at prime indices already yields the statement, so the value is the attribution (citing Poonen-Rubinstein), not new mathematics"
   },
   {
    "id": "A333650-reference",
