@@ -242,11 +242,11 @@
    "kind": "bounds",
    "title": "link to the repository; a(21) >= 47, a(22) >= 49, a(27) >= 56",
    "claim": null,
-   "state": "proposed",
+   "state": "approved",
    "certificate": "complete",
    "guide_check": "witnesses checked with the guide's own code (no4p.py)",
    "prior_art": "improvements over the 2017 OEIS comment and Al Zimmermann's 2016 contest, per the repository note",
-   "next": "wait for editors; answer notes by fixing the entry",
+   "next": "none; watch for later edits by editors",
    "owner": "guide",
    "history": [
     [
@@ -264,9 +264,17 @@
     [
      "2026-11-14",
      "2026-11-14 09:56 EST: editor Michel Marcus changed http to https in three older links (Wolfram Demonstrations, Math StackExchange, AZsPCs), edits #57-#58, status back to proposed; no reply needed, nothing to change on our side"
+    ],
+    [
+     "2026-11-14",
+     "approved (live revision #59, Michael De Vlieger, 2026-11-14 10:42 EST; no notes)"
+    ],
+    [
+     "2026-11-14",
+     "repository tagged oeis-approved-2026-11-14 and archived at Zenodo: note v4.4 with the repository snapshot, 10.5281/zenodo.24223674 (concept 10.5281/zenodo.22023079)"
     ]
    ],
-   "source": null
+   "source": "Zenodo 10.5281/zenodo.24223674 (v4.4; all versions 10.5281/zenodo.22023079)"
   },
   {
    "id": "A000755-a20",
