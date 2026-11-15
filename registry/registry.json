@@ -9,7 +9,7 @@
    "kind": "terms",
    "title": "a(7)-a(12) of the greatest prime with exactly n consecutive quadratic residues",
    "claim": "a(7)..a(12) = 4481, 9857, 25793, 60961, 132113, 324673",
-   "state": "proposed",
+   "state": "approved",
    "certificate": "complete",
    "guide_check": "full independent rescans by the guide of a(11) (13 Nov 2026, 1427 exceptions identical) and a(12) (12 Nov 2026)",
    "prior_art": "Buell and Hudson (1984) had the search range covering a(7)-a(8); credited in the entry",
@@ -39,6 +39,10 @@
     [
      "2026-11-15",
      "status proposed -> reviewed by Michel Marcus (edit #38, Sun Nov 15 07:49 EST); awaiting approval"
+    ],
+    [
+     "2026-11-15",
+     "approved and live (revision #39, Sun Nov 15 2026): %S ...,4481,9857,25793,60961,132113,324673; %E a(7)-a(8) reinstated (proved) and a(9)-a(12) from Aleksei Kudriashov; repository link kept"
     ]
    ],
    "source": null
